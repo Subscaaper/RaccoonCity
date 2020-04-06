@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d55cd4fc-af7e-44fb-81c7-55895a4ef396" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PingPong/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Form1.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Form1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Form1.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Gameover.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Gameover.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Gameover.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Ping Pong.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Properties/Resources.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Properties/Resources.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Properties/Settings.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong/Properties/Settings.settings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modul404.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Modul404.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ping Pong" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586197745897</updated>
-      <workItem from="1586197747032" duration="1951000" />
+      <workItem from="1586197747032" duration="2223000" />
     </task>
     <task id="LOCAL-00001" summary="Second Try">
       <created>1586198217278</created>
@@ -170,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586199563382</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Least">
+      <created>1586199880747</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586199880747</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,10 +287,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586199447917" />
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1586199570901">
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1586199906026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586199570901" />
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586199906026" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1586198725133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
