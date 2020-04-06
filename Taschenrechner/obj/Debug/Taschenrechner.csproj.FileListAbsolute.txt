@@ -17,3 +17,13 @@ G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Taschenrechner mit GUI\Tas
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Taschenrechner mit GUI\Taschenrechner\obj\Debug\Taschenrechner.Properties.Resources.resources
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Taschenrechner mit GUI\Taschenrechner\obj\Debug\Taschenrechner.csproj.GenerateResource.cache
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Taschenrechner mit GUI\Taschenrechner\obj\Debug\Taschenrechner.csproj.CoreCompileInputs.cache
+F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\bin\Debug\Taschenrechner.exe.config
+F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\bin\Debug\Taschenrechner.exe
+F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\bin\Debug\Taschenrechner.pdb
+F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.csprojAssemblyReference.cache
+F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.Form1.resources
+F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.Properties.Resources.resources
+F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.csproj.GenerateResource.cache
+F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.csproj.CoreCompileInputs.cache
+F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.exe
+F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.pdb

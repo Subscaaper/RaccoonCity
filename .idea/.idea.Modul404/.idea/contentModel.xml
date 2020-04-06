@@ -7,7 +7,7 @@
     <e p="F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404" t="IncludeFlat">
       <e p="Modul404.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Ping Pong" t="IncludeRecursive">
+      <e p="PingPong" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Form1.cs" t="Include" />
