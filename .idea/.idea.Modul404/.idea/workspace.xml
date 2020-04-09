@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d55cd4fc-af7e-44fb-81c7-55895a4ef396" name="Default Changelist" comment="Least">
-      <change afterPath="$PROJECT_DIR$/PingPong/bin/Debugscoreboard_pingpong.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="d55cd4fc-af7e-44fb-81c7-55895a4ef396" name="Default Changelist" comment="Push">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/Gameover.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/Gameover.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/Gameover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/Gameover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/bin/Debug/Ping_Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/bin/Debug/Ping_Pong.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/bin/Debug/Ping_Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/bin/Debug/Ping_Pong.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping Pong.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/obj/Debug/Ping Pong.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping Pong.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/obj/Debug/Ping Pong.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schachbrett/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/bin/Debug/Taschenrechner.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/bin/Debug/Taschenrechner.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/bin/Debug/Taschenrechner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/bin/Debug/Taschenrechner.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RunManager">
     <configuration name="Ping Pong" type="DotNetProject" factoryName=".NET Project">
@@ -118,7 +97,8 @@
       <workItem from="1586342069068" duration="11271000" />
       <workItem from="1586419243537" duration="4485000" />
       <workItem from="1586424063927" duration="389000" />
-      <workItem from="1586424928921" duration="603000" />
+      <workItem from="1586424928921" duration="1116000" />
+      <workItem from="1586450423863" duration="1434000" />
     </task>
     <task id="LOCAL-00001" summary="Second Try">
       <created>1586198217278</created>
@@ -204,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586200053970</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Push">
+      <created>1586426014300</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586426014300</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +221,8 @@
     <MESSAGE value="Last Try" />
     <MESSAGE value="Last of all Tries" />
     <MESSAGE value="Least" />
-    <option name="LAST_COMMIT_MESSAGE" value="Least" />
+    <MESSAGE value="Push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push" />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="83" key="#Ping_Pong" timestamp="1586199694105">
@@ -249,22 +237,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1586199479705" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586425997813">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586426368788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586425997813" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586425997812">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586426368788" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586426368788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586425997812" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586425997812">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586426368788" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586426368788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586425997812" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586425997813">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586426368788" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586426368788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586425997813" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586426368788" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586200578792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -329,18 +317,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1586200578793" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1586342148266">
+    <state x="277" y="54" key="SettingsEditor" timestamp="1586451865200">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586342148266" />
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586451865200" />
     <state x="618" y="327" key="VCS.ChangelistChooser" timestamp="1586344683831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="327" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1586344683831" />
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1586341905276">
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1586426018748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586341905276" />
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586426018748" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1586198725133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
