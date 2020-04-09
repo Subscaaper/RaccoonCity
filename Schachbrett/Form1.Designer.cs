@@ -41,15 +41,16 @@
             // 
             this.nudAnzahlZahlen.Increment = new decimal(new int[] {2, 0, 0, 0});
             this.nudAnzahlZahlen.Location = new System.Drawing.Point(30, 31);
+            this.nudAnzahlZahlen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nudAnzahlZahlen.Maximum = new decimal(new int[] {30, 0, 0, 0});
             this.nudAnzahlZahlen.Name = "nudAnzahlZahlen";
             this.nudAnzahlZahlen.Size = new System.Drawing.Size(52, 27);
             this.nudAnzahlZahlen.TabIndex = 0;
-          
             // 
             // btnStart
             // 
             this.btnStart.Location = new System.Drawing.Point(117, 29);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(163, 29);
             this.btnStart.TabIndex = 1;
@@ -62,6 +63,7 @@
             this.pnl1.Controls.Add(this.nudAnzahlZahlen);
             this.pnl1.Controls.Add(this.btnStart);
             this.pnl1.Location = new System.Drawing.Point(49, 42);
+            this.pnl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnl1.Name = "pnl1";
             this.pnl1.Size = new System.Drawing.Size(492, 90);
             this.pnl1.TabIndex = 2;
@@ -70,11 +72,12 @@
             // 
             this.pnlSchachbrett.BackColor = System.Drawing.Color.White;
             this.pnlSchachbrett.Location = new System.Drawing.Point(49, 149);
+            this.pnlSchachbrett.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlSchachbrett.Name = "pnlSchachbrett";
             this.pnlSchachbrett.Size = new System.Drawing.Size(491, 379);
             this.pnlSchachbrett.TabIndex = 3;
             // 
-            // frmSchachbrett
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -82,7 +85,7 @@
             this.Controls.Add(this.pnlSchachbrett);
             this.Controls.Add(this.pnl1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "frmSchachbrett";
+            this.Name = "Form1";
             this.Text = "Schachbrett";
             ((System.ComponentModel.ISupportInitialize) (this.nudAnzahlZahlen)).EndInit();
             this.pnl1.ResumeLayout(false);

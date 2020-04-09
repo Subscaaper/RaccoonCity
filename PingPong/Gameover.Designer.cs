@@ -59,14 +59,14 @@ namespace Ping_Pong
             // lblPunkte
             // 
             this.lblPunkte.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblPunkte.Location = new System.Drawing.Point(49, 97);
+            this.lblPunkte.Location = new System.Drawing.Point(49, 98);
             this.lblPunkte.Name = "lblPunkte";
             this.lblPunkte.Size = new System.Drawing.Size(67, 27);
             this.lblPunkte.TabIndex = 2;
             // 
             // lblErgebnisse
             // 
-            this.lblErgebnisse.BackColor = System.Drawing.Color.Cyan;
+            this.lblErgebnisse.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.lblErgebnisse.Location = new System.Drawing.Point(49, 144);
             this.lblErgebnisse.Name = "lblErgebnisse";
             this.lblErgebnisse.Size = new System.Drawing.Size(198, 204);
@@ -74,16 +74,18 @@ namespace Ping_Pong
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(131, 97);
+            this.txtName.Location = new System.Drawing.Point(131, 98);
+            this.txtName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(116, 27);
             this.txtName.TabIndex = 4;
             // 
             // btnEintragen
             // 
-            this.btnEintragen.Location = new System.Drawing.Point(306, 88);
+            this.btnEintragen.Location = new System.Drawing.Point(253, 91);
+            this.btnEintragen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEintragen.Name = "btnEintragen";
-            this.btnEintragen.Size = new System.Drawing.Size(103, 36);
+            this.btnEintragen.Size = new System.Drawing.Size(103, 34);
             this.btnEintragen.TabIndex = 5;
             this.btnEintragen.Text = "Eintragen";
             this.btnEintragen.UseVisualStyleBackColor = true;
@@ -91,7 +93,8 @@ namespace Ping_Pong
             // 
             // btnzurück
             // 
-            this.btnzurück.Location = new System.Drawing.Point(306, 312);
+            this.btnzurück.Location = new System.Drawing.Point(253, 312);
+            this.btnzurück.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnzurück.Name = "btnzurück";
             this.btnzurück.Size = new System.Drawing.Size(103, 36);
             this.btnzurück.TabIndex = 6;
@@ -99,12 +102,12 @@ namespace Ping_Pong
             this.btnzurück.UseVisualStyleBackColor = true;
             this.btnzurück.Click += new System.EventHandler(this.btnzurück_Click);
             // 
-            // frmGameover
+            // Gameover
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(421, 410);
+            this.ClientSize = new System.Drawing.Size(386, 382);
             this.Controls.Add(this.btnzurück);
             this.Controls.Add(this.btnEintragen);
             this.Controls.Add(this.txtName);
@@ -113,7 +116,7 @@ namespace Ping_Pong
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "frmGameover";
+            this.Name = "Gameover";
             this.Text = "Gameover";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -157,7 +157,7 @@
             this.btnMultiplikation.TabIndex = 12;
             this.btnMultiplikation.Text = "*";
             this.btnMultiplikation.UseVisualStyleBackColor = true;
-            
+            this.btnMultiplikation.Click += new System.EventHandler(this.btnMultiplikation_Click);
             // 
             // Form1
             // 

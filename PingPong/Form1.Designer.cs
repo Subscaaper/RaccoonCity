@@ -39,10 +39,10 @@
             this.txtPunkte = new System.Windows.Forms.TextBox();
             this.vsbScrollbarrechts = new System.Windows.Forms.VScrollBar();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnW = new System.Windows.Forms.Button();
-            this.btnP = new System.Windows.Forms.Button();
-            this.btnS = new System.Windows.Forms.Button();
-            this.btnF = new System.Windows.Forms.Button();
+            this.btnUp = new System.Windows.Forms.Button();
+            this.btnLeft = new System.Windows.Forms.Button();
+            this.btnDown = new System.Windows.Forms.Button();
+            this.btnRight = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.grpSteuerung = new System.Windows.Forms.GroupBox();
             this.rdbSchläger = new System.Windows.Forms.RadioButton();
@@ -135,54 +135,58 @@
             // label2
             // 
             this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Location = new System.Drawing.Point(529, 468);
+            this.label2.Location = new System.Drawing.Point(542, 415);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(209, 116);
             this.label2.TabIndex = 7;
             this.label2.Text =
-                "Steuerung\r\nW = horizontale Flugrichtung\r\nA = vertikale Flugrichtung\r\nP = Spiel Pa" +
+                "Steuerung\r\nW = horizontale Flugrichtung\r\nS = vertikale Flugrichtung\r\nP = Spiel Pa" +
                 "usieren\r\nF = Spiel Fortfahren\r\n\r\n\r\n";
             // 
-            // btnW
+            // btnUp
             // 
-            this.btnW.ForeColor = System.Drawing.Color.Blue;
-            this.btnW.Location = new System.Drawing.Point(648, 199);
-            this.btnW.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnW.Name = "btnW";
-            this.btnW.Size = new System.Drawing.Size(30, 40);
-            this.btnW.TabIndex = 8;
-            this.btnW.Text = "W";
-            this.btnW.UseVisualStyleBackColor = true;
+            this.btnUp.ForeColor = System.Drawing.Color.Blue;
+            this.btnUp.Location = new System.Drawing.Point(638, 149);
+            this.btnUp.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUp.Name = "btnUp";
+            this.btnUp.Size = new System.Drawing.Size(38, 40);
+            this.btnUp.TabIndex = 8;
+            this.btnUp.Text = "Up";
+            this.btnUp.UseVisualStyleBackColor = true;
+            this.btnUp.Click += new System.EventHandler(this.btnW_Click);
             // 
-            // btnP
+            // btnLeft
             // 
-            this.btnP.Location = new System.Drawing.Point(610, 241);
-            this.btnP.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnP.Name = "btnP";
-            this.btnP.Size = new System.Drawing.Size(30, 36);
-            this.btnP.TabIndex = 9;
-            this.btnP.Text = "P";
-            this.btnP.UseVisualStyleBackColor = true;
+            this.btnLeft.Location = new System.Drawing.Point(600, 188);
+            this.btnLeft.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnLeft.Name = "btnLeft";
+            this.btnLeft.Size = new System.Drawing.Size(40, 36);
+            this.btnLeft.TabIndex = 9;
+            this.btnLeft.Text = "Left";
+            this.btnLeft.UseVisualStyleBackColor = true;
+            this.btnLeft.Click += new System.EventHandler(this.btnLeft_Click);
             // 
-            // btnS
+            // btnDown
             // 
-            this.btnS.Location = new System.Drawing.Point(648, 276);
-            this.btnS.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnS.Name = "btnS";
-            this.btnS.Size = new System.Drawing.Size(30, 38);
-            this.btnS.TabIndex = 10;
-            this.btnS.Text = "S";
-            this.btnS.UseVisualStyleBackColor = true;
+            this.btnDown.Location = new System.Drawing.Point(638, 223);
+            this.btnDown.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDown.Name = "btnDown";
+            this.btnDown.Size = new System.Drawing.Size(38, 38);
+            this.btnDown.TabIndex = 10;
+            this.btnDown.Text = "Down";
+            this.btnDown.UseVisualStyleBackColor = true;
+            this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
             // 
-            // btnF
+            // btnRight
             // 
-            this.btnF.Location = new System.Drawing.Point(686, 241);
-            this.btnF.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnF.Name = "btnF";
-            this.btnF.Size = new System.Drawing.Size(30, 36);
-            this.btnF.TabIndex = 11;
-            this.btnF.Text = "F";
-            this.btnF.UseVisualStyleBackColor = true;
+            this.btnRight.Location = new System.Drawing.Point(676, 188);
+            this.btnRight.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnRight.Name = "btnRight";
+            this.btnRight.Size = new System.Drawing.Size(35, 36);
+            this.btnRight.TabIndex = 11;
+            this.btnRight.Text = "Right";
+            this.btnRight.UseVisualStyleBackColor = true;
+            this.btnRight.Click += new System.EventHandler(this.btnRight_Click);
             // 
             // button1
             // 
@@ -199,7 +203,7 @@
             // 
             this.grpSteuerung.Controls.Add(this.rdbSchläger);
             this.grpSteuerung.Controls.Add(this.rdbBall);
-            this.grpSteuerung.Location = new System.Drawing.Point(576, 344);
+            this.grpSteuerung.Location = new System.Drawing.Point(589, 291);
             this.grpSteuerung.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.grpSteuerung.Name = "grpSteuerung";
             this.grpSteuerung.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -239,13 +243,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(963, 751);
+            this.ClientSize = new System.Drawing.Size(963, 571);
             this.Controls.Add(this.grpSteuerung);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnF);
-            this.Controls.Add(this.btnS);
-            this.Controls.Add(this.btnP);
-            this.Controls.Add(this.btnW);
+            this.Controls.Add(this.btnRight);
+            this.Controls.Add(this.btnDown);
+            this.Controls.Add(this.btnLeft);
+            this.Controls.Add(this.btnUp);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.vsbScrollbarrechts);
             this.Controls.Add(this.txtPunkte);
@@ -275,13 +279,13 @@
         private System.Windows.Forms.TextBox txtPunkte;
         private System.Windows.Forms.VScrollBar vsbScrollbarrechts;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnW;
-        private System.Windows.Forms.Button btnP;
-        private System.Windows.Forms.Button btnS;
-        private System.Windows.Forms.Button btnF;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox grpSteuerung;
         private System.Windows.Forms.RadioButton rdbBall;
         private System.Windows.Forms.RadioButton rdbSchläger;
+        private System.Windows.Forms.Button btnRight;
+        private System.Windows.Forms.Button btnDown;
+        private System.Windows.Forms.Button btnLeft;
+        private System.Windows.Forms.Button btnUp;
     }
 }
