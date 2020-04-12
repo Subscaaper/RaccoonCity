@@ -1,11 +1,14 @@
-﻿namespace Ping_Pong
+﻿using System.ComponentModel;
+using System.Windows.Forms;
+
+namespace Ping_Pong
 {
     partial class Form1
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -168,7 +171,7 @@
             // 
             // btnDown
             // 
-            this.btnDown.Location = new System.Drawing.Point(638, 223);
+            this.btnDown.Location = new System.Drawing.Point(638, 222);
             this.btnDown.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDown.Name = "btnDown";
             this.btnDown.Size = new System.Drawing.Size(38, 38);
@@ -270,22 +273,22 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel pnlSpiel;
-        private System.Windows.Forms.PictureBox picBall;
-        private System.Windows.Forms.Timer tmrSpiel;
-        private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel picSchlägerrechts;
-        private System.Windows.Forms.TextBox txtPunkte;
-        private System.Windows.Forms.VScrollBar vsbScrollbarrechts;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.GroupBox grpSteuerung;
-        private System.Windows.Forms.RadioButton rdbBall;
-        private System.Windows.Forms.RadioButton rdbSchläger;
-        private System.Windows.Forms.Button btnRight;
-        private System.Windows.Forms.Button btnDown;
-        private System.Windows.Forms.Button btnLeft;
-        private System.Windows.Forms.Button btnUp;
+        private Panel pnlSpiel;
+        private PictureBox picBall;
+        private Timer tmrSpiel;
+        private Button btnStart;
+        private Label label1;
+        private Panel picSchlägerrechts;
+        private TextBox txtPunkte;
+        private VScrollBar vsbScrollbarrechts;
+        private Label label2;
+        private Button button1;
+        private GroupBox grpSteuerung;
+        private RadioButton rdbBall;
+        private RadioButton rdbSchläger;
+        private Button btnRight;
+        private Button btnDown;
+        private Button btnLeft;
+        private Button btnUp;
     }
 }

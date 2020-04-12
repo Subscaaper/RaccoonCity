@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Ping_Pong
@@ -16,8 +9,8 @@ namespace Ping_Pong
         Gameover frmGameover = new Gameover();
         public int directionX = 2;
         public int directionY = 1;
-        public int points = 0;
-
+        public int points;
+        public Random rand = new Random();
 
         //Ausführung des Programms Form1
         public Form1()
@@ -29,50 +22,53 @@ namespace Ping_Pong
         public void btnStart_Click(object sender, EventArgs e)
         {
             tmrSpiel.Start();
-            
+            picBall.Location = new Point(rand.Next(0,pnlSpiel.Width - picBall.Width),rand.Next(0,pnlSpiel.Height - picBall.Height));
+            picBall.Location = new Point(rand.Next());
+            points = 0;
         }
-
+       
         //Im Timer läuft das Spiel ab
         public void tmrSpiel_Tick(object sender, EventArgs e)
         {
-            
-            
-            /*Position wird berechnet, der Ort wo der Ball ist,(Location.X) plus die Distanz(directionX), ebenso
-             (Location.Y) plus die Distanz(directionY), dadurch dass ein Timer läuft, bewegt sich der Ball immer nach diesem Grundprinzip*/
+            //Bewegung des Balles
             picBall.Location = new Point(picBall.Location.X + directionX,
                 picBall.Location.Y + directionY);
 
-            /*(If-Erklärung) Wenn  0-407 >= 398 && 0-253 >= 0-223 && 0-238 <= 0-263*/
-
+            //(If-Erklärung) Wenn  (0-407 >= 398) && (0-253 >= 0-223) && (0-238 <= 0-263) wenn alle 3 true sind 
+            //Ball trifft auf Schläger
             if (picBall.Location.X >= pnlSpiel.Width - picBall.Width - picSchlägerrechts.Width
                 && picBall.Location.Y + picBall.Height >= picSchlägerrechts.Location.Y
                 && picBall.Location.Y <= picSchlägerrechts.Location.Y + picSchlägerrechts.Height)
             {
-                //Hier wird der Wert für die Distanz X neu initialisiert, sprich DistanzX ist gleich -DistanzX, entspricht 0  und gibt 10 Punkte
+                //directionX bekommt einen neuen Wert zugewiesen
                 directionX = -directionX;
-                //Ball trifft auf rechten Spielrand (Schläger mit eingerechnet, aber noch nicht aktiviert)
                 points += 10;
+                picBall.Location = new Point(rand.Next(0,pnlSpiel.Width - picBall.Width),rand.Next(0,pnlSpiel.Height - picBall.Height));
+          
             }
 
-            if (picBall.Location.X <= 0
-            ) /*Wenn die Distanz X des Ball kleiner/gleich 0 ist, dann ist DistanzX gleich -DistanzX, entspricht 0 */
+            //Ball trifft auf linken Spielrand 
+            if (picBall.Location.X <= 0)
+                //directionX bekommt einen neuen Wert zugewiesen
             {
-                directionX = -directionX; //ball trifft auf linken Spielrand 
+                directionX = -directionX;
             }
 
+            //Ball trifft auf unteren Spielrand 
             if (picBall.Location.Y >= pnlSpiel.Height - picBall.Height
-            ) /*Wenn die Distanz Y des Balls grösser/gleich (Spielfeldhöhe - Ballhöhe),
-            dann ist DistanzY gleich -DistanzY, entspricht 0 */
+            )
             {
-                directionY = -directionY; //entspricht unterem Rand
+                directionY = -directionY;
             }
 
+            //Ball trifft auf oberen Spielrand 
             if (picBall.Location.Y < 0
-            ) /*Wenn die Distanz Y des Balls kleiner als 0 ist, dann ist DistanzY gleich -DistanzY, entspricht 0 */
+            ) /*Wenn die Distanz Y des Balls kleiner als 0 ist, dann ist DistanzY gleich -DistanzY */
             {
-                directionY = -directionY; //entspricht oberem Rand
+                directionY = -directionY;
             }
 
+            //Ball trifft auf rechten Spielrand
             if (picBall.Location.X >= pnlSpiel.Width - picBall.Width)
             {
                 tmrSpiel.Stop();
@@ -92,10 +88,10 @@ namespace Ping_Pong
 
             //Scrollbar rechts Werte setzen
 
-            vsbScrollbarrechts.Height = pnlSpiel.Height; //Höhe des Scrollbalkens, Höhe des Spielfeldes
+            vsbScrollbarrechts.Height = pnlSpiel.Height; //Höhe des Scrollbalkens = Höhe des Spielfeldes
             vsbScrollbarrechts.Location =
                 new Point(pnlSpiel.Location.X + pnlSpiel.Width,
-                    pnlSpiel.Location.Y); //Start Location wird neu definiert, wenn das Spiel beginnt
+                    pnlSpiel.Location.Y); //Start Location wo die Scrollbar ist, wenn sich das 'Formular' öffnet
             vsbScrollbarrechts.Minimum = 0;
             vsbScrollbarrechts.Maximum =
                 pnlSpiel.Height - picSchlägerrechts.Height +
@@ -199,6 +195,7 @@ namespace Ping_Pong
                     case Keys.Down:
                         picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y + 25);
                         return true;
+
                     case Keys.Left:
                         picBall.Location = new Point(picBall.Location.X - 25, picBall.Location.Y + 0);
                         return true;
@@ -209,21 +206,18 @@ namespace Ping_Pong
                         return base.ProcessDialogKey(keyData);
                 }
             }
-            else
-            {
-                switch (keyData)
-                {
-                    case Keys.Up:
-                        return true;
-                    case Keys.Down:
-                        return true;
-                    case Keys.Left:
-                        return true;
-                    case Keys.Right:
-                        return true;
-                }
-            }
 
+            switch (keyData)
+            {
+                case Keys.Up:
+                    return true;
+                case Keys.Down:
+                    return true;
+                case Keys.Left:
+                    return true;
+                case Keys.Right:
+                    return true;
+            }
 
             return base.ProcessDialogKey(keyData);
         }

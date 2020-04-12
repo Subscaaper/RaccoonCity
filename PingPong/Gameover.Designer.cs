@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Windows.Forms;
 
 namespace Ping_Pong
 {
@@ -124,12 +125,12 @@ namespace Ping_Pong
 
         #endregion
 
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblPunkte;
-        private System.Windows.Forms.Label lblErgebnisse;
-        private System.Windows.Forms.TextBox txtName;
-        private System.Windows.Forms.Button btnzurück;
-        private System.Windows.Forms.Button btnEintragen;
+        private Label label2;
+        private Label label1;
+        private Label lblPunkte;
+        private Label lblErgebnisse;
+        private TextBox txtName;
+        private Button btnzurück;
+        private Button btnEintragen;
     }
 }
