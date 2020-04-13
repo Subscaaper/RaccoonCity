@@ -58,7 +58,7 @@ namespace Ping_Pong
             // picBall
             // 
             this.picBall.BackColor = System.Drawing.Color.Red;
-            this.picBall.Location = new System.Drawing.Point(166, 114);
+            this.picBall.Location = new System.Drawing.Point(152, 94);
             this.picBall.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.picBall.Name = "picBall";
             this.picBall.Size = new System.Drawing.Size(31, 34);
@@ -74,13 +74,13 @@ namespace Ping_Pong
             this.pnlSpiel.Location = new System.Drawing.Point(27, 34);
             this.pnlSpiel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlSpiel.Name = "pnlSpiel";
-            this.pnlSpiel.Size = new System.Drawing.Size(498, 346);
+            this.pnlSpiel.Size = new System.Drawing.Size(500, 346);
             this.pnlSpiel.TabIndex = 1;
             // 
             // picSchlägerrechts
             // 
             this.picSchlägerrechts.BackColor = System.Drawing.Color.White;
-            this.picSchlägerrechts.Location = new System.Drawing.Point(486, 94);
+            this.picSchlägerrechts.Location = new System.Drawing.Point(488, 128);
             this.picSchlägerrechts.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.picSchlägerrechts.Name = "picSchlägerrechts";
             this.picSchlägerrechts.Size = new System.Drawing.Size(11, 54);
@@ -246,7 +246,7 @@ namespace Ping_Pong
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(963, 571);
+            this.ClientSize = new System.Drawing.Size(819, 571);
             this.Controls.Add(this.grpSteuerung);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnRight);
@@ -273,22 +273,22 @@ namespace Ping_Pong
 
         #endregion
 
-        private Panel pnlSpiel;
-        private PictureBox picBall;
-        private Timer tmrSpiel;
-        private Button btnStart;
-        private Label label1;
-        private Panel picSchlägerrechts;
-        private TextBox txtPunkte;
-        private VScrollBar vsbScrollbarrechts;
-        private Label label2;
-        private Button button1;
-        private GroupBox grpSteuerung;
-        private RadioButton rdbBall;
-        private RadioButton rdbSchläger;
-        private Button btnRight;
-        private Button btnDown;
-        private Button btnLeft;
-        private Button btnUp;
+        private System.Windows.Forms.Button btnUp;
+        private System.Windows.Forms.Button btnLeft;
+        private System.Windows.Forms.Button btnDown;
+        private System.Windows.Forms.Button btnRight;
+        private System.Windows.Forms.RadioButton rdbSchläger;
+        private System.Windows.Forms.RadioButton rdbBall;
+        private System.Windows.Forms.GroupBox grpSteuerung;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.VScrollBar vsbScrollbarrechts;
+        private System.Windows.Forms.TextBox txtPunkte;
+        private System.Windows.Forms.Panel picSchlägerrechts;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.Timer tmrSpiel;
+        private System.Windows.Forms.PictureBox picBall;
+        private System.Windows.Forms.Panel pnlSpiel;
     }
 }

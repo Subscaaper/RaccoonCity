@@ -70,7 +70,7 @@ namespace Ping_Pong
             this.lblErgebnisse.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.lblErgebnisse.Location = new System.Drawing.Point(49, 144);
             this.lblErgebnisse.Name = "lblErgebnisse";
-            this.lblErgebnisse.Size = new System.Drawing.Size(198, 204);
+            this.lblErgebnisse.Size = new System.Drawing.Size(307, 204);
             this.lblErgebnisse.TabIndex = 3;
             // 
             // txtName
@@ -94,7 +94,7 @@ namespace Ping_Pong
             // 
             // btnzurück
             // 
-            this.btnzurück.Location = new System.Drawing.Point(253, 312);
+            this.btnzurück.Location = new System.Drawing.Point(49, 350);
             this.btnzurück.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnzurück.Name = "btnzurück";
             this.btnzurück.Size = new System.Drawing.Size(103, 36);
@@ -108,7 +108,7 @@ namespace Ping_Pong
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(386, 382);
+            this.ClientSize = new System.Drawing.Size(489, 419);
             this.Controls.Add(this.btnzurück);
             this.Controls.Add(this.btnEintragen);
             this.Controls.Add(this.txtName);
@@ -119,18 +119,19 @@ namespace Ping_Pong
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Gameover";
             this.Text = "Gameover";
+            this.Load += new System.EventHandler(this.Gameover_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
         }
 
         #endregion
 
-        private Label label2;
-        private Label label1;
-        private Label lblPunkte;
-        private Label lblErgebnisse;
-        private TextBox txtName;
-        private Button btnzurück;
-        private Button btnEintragen;
+        private System.Windows.Forms.Button btnEintragen;
+        private System.Windows.Forms.Button btnzurück;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label lblErgebnisse;
+        private System.Windows.Forms.Label lblPunkte;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -21,9 +21,11 @@ namespace Ping_Pong
         //wird der Timer aktiviert, Spiel startet
         public void btnStart_Click(object sender, EventArgs e)
         {
+            directionX = 2;
+            directionY = 1;
             tmrSpiel.Start();
             picBall.Location = new Point(rand.Next(0,pnlSpiel.Width - picBall.Width),rand.Next(0,pnlSpiel.Height - picBall.Height));
-            picBall.Location = new Point(rand.Next());
+            
             points = 0;
         }
        
@@ -43,8 +45,11 @@ namespace Ping_Pong
                 //directionX bekommt einen neuen Wert zugewiesen
                 directionX = -directionX;
                 points += 10;
-                picBall.Location = new Point(rand.Next(0,pnlSpiel.Width - picBall.Width),rand.Next(0,pnlSpiel.Height - picBall.Height));
-          
+                if (rdbBall.Checked)
+                {
+                    picSchlägerrechts.Location = new Point(pnlSpiel.Width - picSchlägerrechts.Width, 
+                        rand.Next(pnlSpiel.Height - picSchlägerrechts.Height));
+                }
             }
 
             //Ball trifft auf linken Spielrand 
@@ -76,6 +81,13 @@ namespace Ping_Pong
                 frmGameover.SetPoints(points);
             }
 
+            if (points == 50)
+            {
+                directionX = 4;
+                directionY = 2;
+                picBall.BackColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
+            }
+            
             txtPunkte.Text =
                 Convert.ToString(points); //Punkte sind als int definiert, werden zum darstellen in String konvertiert.
         }
@@ -83,7 +95,7 @@ namespace Ping_Pong
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Schläger ganz rechts ins Panel setzen //Ausgangsposition vom Schläger X und Y Koordinaten 422, 128
+            //Schläger ganz rechts ins Panel setzen //Ausgangsposition vom Schläger X und Y Koordinaten 489, 128
             picSchlägerrechts.Location = new Point(pnlSpiel.Width - picSchlägerrechts.Width, pnlSpiel.Height / 2);
 
             //Scrollbar rechts Werte setzen
