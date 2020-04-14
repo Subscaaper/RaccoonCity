@@ -45,6 +45,7 @@ namespace Ping_Pong
                 //directionX bekommt einen neuen Wert zugewiesen
                 directionX = -directionX;
                 points += 10;
+                //Wenn die Ballsteuerung aktiviert ist, dann springt der Schlägerrechts an eine Zufällige Position, sobald er vom Ball getroffen wurde
                 if (rdbBall.Checked)
                 {
                     picSchlägerrechts.Location = new Point(pnlSpiel.Width - picSchlägerrechts.Width, 
@@ -81,12 +82,12 @@ namespace Ping_Pong
                 frmGameover.SetPoints(points);
             }
 
-            if (points == 50)
+           if(points % 50 == 0)
             {
-                directionX = 4;
-                directionY = 2;
+                tmrSpiel.Interval = Math.Max(tmrSpiel.Interval - 20, 20 );
                 picBall.BackColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
             }
+            
             
             txtPunkte.Text =
                 Convert.ToString(points); //Punkte sind als int definiert, werden zum darstellen in String konvertiert.
@@ -143,26 +144,26 @@ namespace Ping_Pong
                     case Keys.S:
                         if (directionY > directionX)
                         {
-                            directionX = 2;
-                            directionY = -1;
+                            directionX = +directionX;
+                            directionY = -directionY;
                         }
                         else
                         {
-                            directionX = -2;
-                            directionY = 1;
+                            directionX = -directionX;
+                            directionY = +directionY;
                         }
 
                         break;
                     case Keys.W:
                         if (directionX > directionY)
                         {
-                            directionX = -2;
-                            directionY = -1;
+                            directionX = -directionX;
+                            directionY = -directionY;
                         }
                         else
                         {
-                            directionX = 2;
-                            directionY = 1;
+                            directionX = +directionX;
+                            directionY = +directionY;
                         }
 
                         break;

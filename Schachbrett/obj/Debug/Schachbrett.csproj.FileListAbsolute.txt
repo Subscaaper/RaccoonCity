@@ -17,3 +17,13 @@ F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\obj\D
 F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\obj\Debug\Schachbrett.csproj.CoreCompileInputs.cache
 F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\obj\Debug\Schachbrett.exe
 F:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\obj\Debug\Schachbrett.pdb
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\bin\Debug\Schachbrett.exe.config
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\bin\Debug\Schachbrett.exe
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\bin\Debug\Schachbrett.pdb
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\obj\Debug\Schachbrett.csprojAssemblyReference.cache
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\obj\Debug\Schachbrett.Form1.resources
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\obj\Debug\Schachbrett.Properties.Resources.resources
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\obj\Debug\Schachbrett.csproj.GenerateResource.cache
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\obj\Debug\Schachbrett.csproj.CoreCompileInputs.cache
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\obj\Debug\Schachbrett.exe
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Schachbrett\obj\Debug\Schachbrett.pdb

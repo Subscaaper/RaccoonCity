@@ -1,0 +1,11 @@
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v1 - v4\bin\Debug\Ping_Pong.exe.config
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v1 - v4\bin\Debug\Ping_Pong.exe
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v1 - v4\bin\Debug\Ping_Pong.pdb
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v1 - v4\obj\Debug\Ping Pong v1-v4 .csprojAssemblyReference.cache
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v1 - v4\obj\Debug\Ping_Pong.Form1.resources
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v1 - v4\obj\Debug\Ping_Pong.Gameover.resources
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v1 - v4\obj\Debug\Ping_Pong.Properties.Resources.resources
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v1 - v4\obj\Debug\Ping Pong v1-v4 .csproj.GenerateResource.cache
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v1 - v4\obj\Debug\Ping Pong v1-v4 .csproj.CoreCompileInputs.cache
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v1 - v4\obj\Debug\Ping_Pong.exe
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v1 - v4\obj\Debug\Ping_Pong.pdb

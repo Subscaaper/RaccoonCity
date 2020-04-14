@@ -1,22 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d55cd4fc-af7e-44fb-81c7-55895a4ef396" name="Default Changelist" comment="Zufälliger Ort des Balles">
+    <list default="true" id="d55cd4fc-af7e-44fb-81c7-55895a4ef396" name="Default Changelist" comment="Ping Pong v5">
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Form1.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Form1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Form1.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Gameover.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Gameover.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Gameover.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Ping Pong v1-v4 .csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Ping Pong.csproj.DotSettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/bin/Debug/Ping_Pong.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/bin/Debug/Ping_Pong.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/bin/Debug/Ping_Pong.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/bin/Debugscoreboard_pingpong.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping Pong v1-v4 .csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping Pong v1-v4 .csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping Pong v1-v4 .csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping Pong v1-v4 .csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping Pong.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping Pong.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping Pong.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping Pong.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping_Pong.Form1.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping_Pong.Gameover.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping_Pong.Properties.Resources.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping_Pong.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping_Pong.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Form1.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Form1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Form1.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Gameover.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Gameover.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Gameover.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Ping Pong v5 .csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Ping Pong.csproj.DotSettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/bin/Debugscoreboard_pingpong.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong v1-v4 .csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong v5 .csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.Form1.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.Gameover.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.Properties.Resources.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/Gameover.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/Gameover.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/Gameover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/Gameover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/bin/Debug/Ping_Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/bin/Debug/Ping_Pong.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/bin/Debug/Ping_Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/bin/Debug/Ping_Pong.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping Pong.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/obj/Debug/Ping Pong.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modul404.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Modul404.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Form1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Form1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Form1.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Gameover.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Gameover.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Gameover.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Ping Pong.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Ping Pong.csproj.DotSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/bin/Debug/Ping_Pong.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/bin/Debug/Ping_Pong.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/bin/Debug/Ping_Pong.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/bin/Debugscoreboard_pingpong.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping Pong.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping Pong.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping Pong.csproj.GenerateResource.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping Pong.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.Form1.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.Gameover.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.Properties.Resources.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong/obj/Debug/Ping_Pong.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schachbrett/bin/Debug/Schachbrett.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/bin/Debug/Schachbrett.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schachbrett/bin/Debug/Schachbrett.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/bin/Debug/Schachbrett.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,9 +128,9 @@
     <setting file="file://$PROJECT_DIR$/Schachbrett/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Schachbrett/Form1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Taschenrechner/Form1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PingPong/Gameover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PingPong/Form1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PingPong/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PingPong v5/Gameover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PingPong v1 - v4/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PingPong v5/Form1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -38,6 +141,7 @@
         <option value="$PROJECT_DIR$/Taschenrechner/Form1.cs" />
         <option value="$PROJECT_DIR$/PingPong/Gameover.cs" />
         <option value="$PROJECT_DIR$/PingPong/Form1.cs" />
+        <option value="$PROJECT_DIR$/Modul404.sln" />
       </list>
     </option>
   </component>
@@ -58,16 +162,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager">
-    <configuration name="Ping Pong" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/PingPong/bin/Debug/Ping_Pong.exe" />
+  <component name="RunManager" selected=".NET Project.Ping Pong v5 ">
+    <configuration name="Ping Pong v5 " type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PingPong/bin/Debug" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PingPong v5/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/PingPong/Ping Pong.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/PingPong v5/Ping Pong v5 .csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -77,6 +181,33 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ping Pong" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/PingPong v1 - v4/bin/Debug/Ping_Pong.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PingPong v1 - v4/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/PingPong v1 - v4/Ping Pong v1-v4 .csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Ping Pong" />
+      <item itemvalue=".NET Project.Ping Pong v5 " />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Ping Pong v5 " />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -112,7 +243,10 @@
       <workItem from="1586456061200" duration="426000" />
       <workItem from="1586677065565" duration="10994000" />
       <workItem from="1586768739666" duration="2611000" />
-      <workItem from="1586772284620" duration="2344000" />
+      <workItem from="1586772284620" duration="2381000" />
+      <workItem from="1586853607592" duration="3031000" />
+      <workItem from="1586856725508" duration="1476000" />
+      <workItem from="1586858580474" duration="706000" />
     </task>
     <task id="LOCAL-00001" summary="Second Try">
       <created>1586198217278</created>
@@ -219,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586682754012</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Ping Pong v5">
+      <created>1586774645767</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1586774645767</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,37 +392,38 @@
     <MESSAGE value="Least" />
     <MESSAGE value="Push" />
     <MESSAGE value="Zufälliger Ort des Balles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zufälliger Ort des Balles" />
+    <MESSAGE value="Ping Pong v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ping Pong v5" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="83" key="#Ping_Pong" timestamp="1586199694105">
+    <state x="453" y="83" key="#Ping_Pong" timestamp="1586858604908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="453" y="83" key="#Ping_Pong/0.0.1536.824@0.0.1536.824" timestamp="1586199694105" />
-    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586420458221">
+    <state x="453" y="83" key="#Ping_Pong/0.0.1536.824@0.0.1536.824" timestamp="1586858604908" />
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586858667164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586420458221" />
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586858667164" />
     <state x="147" y="64" key="DiffContextDialog" timestamp="1586199479705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1586199479705" />
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1586774617027">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1586859892062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586774617027" />
-    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1586774617027">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586859892062" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1586859892062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586774617027" />
-    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1586774617027">
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586859892062" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1586859892062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586774617027" />
-    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1586774617027">
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586859892062" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1586859892062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586774617027" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586859892062" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586200578792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -358,17 +500,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="327" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1586344683831" />
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1586682758049">
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1586774650901">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586682758049" />
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586774650901" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1586198725133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586198725133" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586353409818">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586853647556">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586353409818" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586853647556" />
   </component>
 </project>

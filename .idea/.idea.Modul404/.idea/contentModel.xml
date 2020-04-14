@@ -7,7 +7,7 @@
     <e p="G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404" t="IncludeFlat">
       <e p="Modul404.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="PingPong" t="IncludeRecursive">
+      <e p="PingPong v1 - v4" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Form1.cs" t="Include" />
@@ -17,7 +17,27 @@
         <e p="Gameover.Designer.cs" t="Include" />
         <e p="Gameover.resx" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
-        <e p="Ping Pong.csproj" t="IncludeRecursive" />
+        <e p="Ping Pong v1-v4 .csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+      </e>
+      <e p="PingPong v5" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
+        <e p="Gameover.cs" t="Include" />
+        <e p="Gameover.Designer.cs" t="Include" />
+        <e p="Gameover.resx" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Ping Pong v5 .csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
