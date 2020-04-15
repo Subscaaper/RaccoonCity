@@ -6,8 +6,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taschenrechner", "Taschenre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ping Pong v1-v4 ", "PingPong v1 - v4\Ping Pong v1-v4 .csproj", "{F5CBDF01-D475-4FFC-A078-9BD92E51CE02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ping Pong v5 ", "PingPong v5\Ping Pong v5 .csproj", "{F5CBDF01-D475-4FFC-A078-9BD92E51CE02}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,7 +22,5 @@ Global
 		{2490785B-7158-4C25-9DF2-63017B4CA0E4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F5CBDF01-D475-4FFC-A078-9BD92E51CE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F5CBDF01-D475-4FFC-A078-9BD92E51CE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5CBDF01-D475-4FFC-A078-9BD92E51CE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5CBDF01-D475-4FFC-A078-9BD92E51CE02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

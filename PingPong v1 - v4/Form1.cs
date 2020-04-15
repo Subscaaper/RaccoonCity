@@ -11,7 +11,6 @@ namespace Ping_Pong
         public int directionY = 1;
         public int points;
         public Random rand = new Random();
-
         //Ausführung des Programms Form1
         public Form1()
         {
@@ -305,5 +304,7 @@ namespace Ping_Pong
                 picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y + 25);
             }
         }
+
+       
     }
 }

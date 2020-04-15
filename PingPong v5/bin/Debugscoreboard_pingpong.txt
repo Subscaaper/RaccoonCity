@@ -1,5 +1,0 @@
-0, System.Windows.Forms.TextBox, Text: Kevin, 08.04.2020 15:13:02,
-30, System.Windows.Forms.TextBox, Text: Keivn, 08.04.2020 15:27:50,
-0, System.Windows.Forms.TextBox, Text: Kevin, 08.04.2020 15:28:39,
-0, Keivn, 08.04.2020 15:29:42,
-0, Kervin, 08.04.2020 15:40:50,
