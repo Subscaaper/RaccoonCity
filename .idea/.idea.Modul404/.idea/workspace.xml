@@ -1,46 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d55cd4fc-af7e-44fb-81c7-55895a4ef396" name="Default Changelist" comment="Ping Pong v5">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="d55cd4fc-af7e-44fb-81c7-55895a4ef396" name="Default Changelist" comment="Ping Pong v1 - v4">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modul404.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Modul404.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v1 - v4/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v1 - v4/Form1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PingPong v1 - v4/bin/Debug/Ping_Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v1 - v4/bin/Debug/Ping_Pong.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PingPong v1 - v4/bin/Debug/Ping_Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v1 - v4/bin/Debug/Ping_Pong.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping Pong v1-v4 .csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping Pong v1-v4 .csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping_Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping_Pong.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping_Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v1 - v4/obj/Debug/Ping_Pong.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Form1.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Form1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Form1.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Gameover.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Gameover.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Gameover.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Ping Pong v5 .csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Ping Pong.csproj.DotSettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Properties/Resources.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Properties/Resources.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Properties/Settings.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Properties/Settings.settings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/bin/Debugscoreboard_pingpong.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong v1-v4 .csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong v5 .csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong.csproj.GenerateResource.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.Form1.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.Gameover.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.Properties.Resources.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +70,7 @@
     <property name="TWShift.4" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
   </component>
   <component name="RunManager" selected=".NET Project.Ping Pong">
     <configuration name="Ping Pong v5 " type="DotNetProject" factoryName=".NET Project" temporary="true">
@@ -194,7 +162,7 @@
       <workItem from="1586945014262" duration="550000" />
       <workItem from="1586945565365" duration="336000" />
       <workItem from="1586946321420" duration="887000" />
-      <workItem from="1586947281342" duration="278000" />
+      <workItem from="1586947281342" duration="1915000" />
     </task>
     <task id="LOCAL-00001" summary="Second Try">
       <created>1586198217278</created>
@@ -315,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586859955643</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Ping Pong v1 - v4">
+      <created>1586947592415</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1586947592415</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +323,8 @@
     <MESSAGE value="Push" />
     <MESSAGE value="Zufälliger Ort des Balles" />
     <MESSAGE value="Ping Pong v5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ping Pong v5" />
+    <MESSAGE value="Ping Pong v1 - v4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ping Pong v1 - v4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="83" key="#Ping_Pong" timestamp="1586858604908">
@@ -443,22 +419,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1586200578793" />
-    <state x="361" y="143" key="Rider.ProjectTemplateDialog.Size" timestamp="1586945713077">
+    <state x="361" y="143" key="Rider.ProjectTemplateDialog.Size" timestamp="1586949020484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="143" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1586945713077" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1586456471864">
+    <state x="361" y="143" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1586949020484" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1586948227751">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586456471864" />
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586948227751" />
     <state x="618" y="327" key="VCS.ChangelistChooser" timestamp="1586344683831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="327" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1586344683831" />
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1586859963948">
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1586947599574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586859963948" />
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586947599574" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1586198725133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
