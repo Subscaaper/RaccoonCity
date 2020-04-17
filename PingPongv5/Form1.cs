@@ -6,7 +6,7 @@ namespace Ping_Pong
 {
     public partial class Form1 : Form
     {
-        Gameover frmGameover = new Gameover();
+        Gameover Score = new Gameover();
         public int directionX = 2;
         public int directionY = 1;
         public int pointsPlayer;
@@ -25,8 +25,7 @@ namespace Ping_Pong
             directionX = 2;
             directionY = 1;
             tmrSpiel.Start();
-            picBall.Location = new Point(rand.Next(0, pnlSpiel.Width - picBall.Width),
-                rand.Next(0, pnlSpiel.Height - picBall.Height));
+            picBall.Location = new Point(pnlSpiel.Width / 2, pnlSpiel.Height / 2);
 
             pointsPlayer = 0;
         }
@@ -52,6 +51,7 @@ namespace Ping_Pong
             if (picBall.Location.X <= 0)
             {
                 directionX = -directionX;
+                tmrSpiel.Stop();
                 pointsPlayer += 10;
             }
 
@@ -72,20 +72,34 @@ namespace Ping_Pong
             //Ball trifft auf rechten Spielrand
             if (picBall.Location.X >= pnlSpiel.Width - picBall.Width)
             {
+                tmrSpiel.Stop();
                 pointsCPU += 10;
             }
 
-
-            if (picBall.Location.Y < pnlSpiel.Height / 2)
+            //CPUSchläger an eine Random Position setzen
+            if (picBall.Location.Y >= pnlSpiel.Height / 2 - pnlSpiel.Location.Y)
             {
-                picCPU.Location = new Point(pnlSpiel.Width - picCPU.Width,
-                    rand.Next(pnlSpiel.Height - picCPU.Height));
+                picCPU.Location = new Point(pnlSpiel.Width,
+                    rand.Next(pnlSpiel.Height - picSchlägerrechts.Height));
             }
 
-            if (picBall.Location.X >= pnlSpiel.Width - picBall.Width - picCPU.Width
+            //Wenn der Ball den CPUSchläger berührt
+            if (picBall.Location.X >= pnlSpiel.Location.X - picCPU.Width
                 && picBall.Location.Y + picBall.Height >= picCPU.Location.Y
                 && picBall.Location.Y <= picCPU.Location.Y + picCPU.Height)
             {
+                directionX = +directionX;
+            }
+
+            //Wenn 100 Punkte erreicht worden sind, dann ist das Spiel fertig, und das andere Formular öffnet sich
+            if (pointsPlayer == 100)
+            {
+                Score.Show();
+            }
+
+            if (pointsCPU == 100)
+            {
+                
             }
 
             txtPunkte.Text =
@@ -95,12 +109,11 @@ namespace Ping_Pong
                 Convert.ToString(pointsPlayer);
         }
 
-
         private void Form1_Load(object sender, EventArgs e)
         {
             //Schläger ganz rechts ins Panel setzen //Ausgangsposition vom Schläger X und Y Koordinaten 489, 128
             picSchlägerrechts.Location = new Point(pnlSpiel.Width - picSchlägerrechts.Width, pnlSpiel.Height / 2);
-
+            picCPU.Location = new Point(pnlSpiel.Location.X, pnlSpiel.Height / 2);
             //Scrollbar rechts Werte setzen
 
             vsbScrollbarrechts.Height = pnlSpiel.Height; //Höhe des Scrollbalkens = Höhe des Spielfeldes
@@ -132,7 +145,7 @@ namespace Ping_Pong
 
 
         //override, dass man nicht über die elemente fährt
-         
+
         protected override bool ProcessDialogKey(Keys keyData)
         {
             switch (keyData)
@@ -149,7 +162,7 @@ namespace Ping_Pong
 
             return base.ProcessDialogKey(keyData);
         }
-        
+
         //Spiel pausieren und fortsetzen
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
@@ -162,8 +175,6 @@ namespace Ping_Pong
                     tmrSpiel.Start();
                     break;
             }
-
-           
+        }
     }
 }
-

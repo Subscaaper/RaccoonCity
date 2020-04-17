@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ping Pong v1-v4 ", "PingPon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPongv5", "PingPongv5\PingPongv5.csproj", "{C2ADEF22-8C31-4498-B20E-9BF72AE0662E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maus und Tastatur Klick", "AB_03 Events\Maus und Tastatur Klick.csproj", "{F1EC9E09-7DB2-4B7E-8019-C261FF753317}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,5 +30,9 @@ Global
 		{C2ADEF22-8C31-4498-B20E-9BF72AE0662E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2ADEF22-8C31-4498-B20E-9BF72AE0662E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2ADEF22-8C31-4498-B20E-9BF72AE0662E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1EC9E09-7DB2-4B7E-8019-C261FF753317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EC9E09-7DB2-4B7E-8019-C261FF753317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EC9E09-7DB2-4B7E-8019-C261FF753317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EC9E09-7DB2-4B7E-8019-C261FF753317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -35,6 +35,7 @@ namespace Ping_Pong
             this.components = new System.ComponentModel.Container();
             this.picBall = new System.Windows.Forms.PictureBox();
             this.pnlSpiel = new System.Windows.Forms.Panel();
+            this.picCPU = new System.Windows.Forms.Panel();
             this.picSchlägerrechts = new System.Windows.Forms.Panel();
             this.btnStart = new System.Windows.Forms.Button();
             this.tmrSpiel = new System.Windows.Forms.Timer(this.components);
@@ -45,7 +46,6 @@ namespace Ping_Pong
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtPunktePlayer = new System.Windows.Forms.TextBox();
-            this.picCPU = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize) (this.picBall)).BeginInit();
             this.pnlSpiel.SuspendLayout();
             this.SuspendLayout();
@@ -53,7 +53,7 @@ namespace Ping_Pong
             // picBall
             // 
             this.picBall.BackColor = System.Drawing.Color.Red;
-            this.picBall.Location = new System.Drawing.Point(152, 94);
+            this.picBall.Location = new System.Drawing.Point(220, 138);
             this.picBall.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.picBall.Name = "picBall";
             this.picBall.Size = new System.Drawing.Size(31, 34);
@@ -64,13 +64,24 @@ namespace Ping_Pong
             // 
             this.pnlSpiel.BackColor = System.Drawing.Color.Black;
             this.pnlSpiel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlSpiel.Controls.Add(this.picCPU);
             this.pnlSpiel.Controls.Add(this.picSchlägerrechts);
             this.pnlSpiel.Controls.Add(this.picBall);
-            this.pnlSpiel.Location = new System.Drawing.Point(26, 34);
+            this.pnlSpiel.Location = new System.Drawing.Point(27, 34);
             this.pnlSpiel.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.pnlSpiel.Name = "pnlSpiel";
             this.pnlSpiel.Size = new System.Drawing.Size(500, 346);
             this.pnlSpiel.TabIndex = 1;
+            // 
+            // picCPU
+            // 
+            this.picCPU.BackColor = System.Drawing.Color.White;
+            this.picCPU.Location = new System.Drawing.Point(-1, 128);
+            this.picCPU.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.picCPU.Name = "picCPU";
+            this.picCPU.Size = new System.Drawing.Size(10, 54);
+            this.picCPU.TabIndex = 2;
+            
             // 
             // picSchlägerrechts
             // 
@@ -178,22 +189,12 @@ namespace Ping_Pong
             this.txtPunktePlayer.TabIndex = 15;
             this.txtPunktePlayer.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // picCPU
-            // 
-            this.picCPU.BackColor = System.Drawing.Color.White;
-            this.picCPU.Location = new System.Drawing.Point(26, 161);
-            this.picCPU.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.picCPU.Name = "picCPU";
-            this.picCPU.Size = new System.Drawing.Size(10, 54);
-            this.picCPU.TabIndex = 2;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(818, 571);
-            this.Controls.Add(this.picCPU);
             this.Controls.Add(this.txtPunktePlayer);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
