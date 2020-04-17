@@ -10,7 +10,9 @@ namespace Ping_Pong
         public int directionX = 2;
         public int directionY = 1;
         public int points;
+
         public Random rand = new Random();
+
         //Ausführung des Programms Form1
         public Form1()
         {
@@ -23,11 +25,12 @@ namespace Ping_Pong
             directionX = 2;
             directionY = 1;
             tmrSpiel.Start();
-            picBall.Location = new Point(rand.Next(0,pnlSpiel.Width - picBall.Width),rand.Next(0,pnlSpiel.Height - picBall.Height));
-            
+            picBall.Location = new Point(rand.Next(0, pnlSpiel.Width - picBall.Width),
+                rand.Next(0, pnlSpiel.Height - picBall.Height));
+
             points = 0;
         }
-       
+
         //Im Timer läuft das Spiel ab
         public void tmrSpiel_Tick(object sender, EventArgs e)
         {
@@ -47,7 +50,7 @@ namespace Ping_Pong
                 //Wenn die Ballsteuerung aktiviert ist, dann springt der Schlägerrechts an eine Zufällige Position, sobald er vom Ball getroffen wurde
                 if (rdbBall.Checked)
                 {
-                    picSchlägerrechts.Location = new Point(pnlSpiel.Width - picSchlägerrechts.Width, 
+                    picSchlägerrechts.Location = new Point(pnlSpiel.Width - picSchlägerrechts.Width,
                         rand.Next(pnlSpiel.Height - picSchlägerrechts.Height));
                 }
             }
@@ -81,13 +84,14 @@ namespace Ping_Pong
                 frmGameover.SetPoints(points);
             }
 
-           if(points % 50 == 0)
+
+            if (points % 50 == 0)
             {
-                tmrSpiel.Interval = Math.Max(tmrSpiel.Interval - 20, 20 );
+                tmrSpiel.Interval = Math.Max(tmrSpiel.Interval - 20, 20);
                 picBall.BackColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
             }
-            
-            
+
+
             txtPunkte.Text =
                 Convert.ToString(points); //Punkte sind als int definiert, werden zum darstellen in String konvertiert.
         }
@@ -95,11 +99,11 @@ namespace Ping_Pong
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Schläger ganz rechts ins Panel setzen //Ausgangsposition vom Schläger X und Y Koordinaten 489, 128
+            //Schläger ganz rechts ins Panel setzen
+            //Ausgangsposition vom Schläger X und Y Koordinaten 489, 128
             picSchlägerrechts.Location = new Point(pnlSpiel.Width - picSchlägerrechts.Width, pnlSpiel.Height / 2);
 
             //Scrollbar rechts Werte setzen
-
             vsbScrollbarrechts.Height = pnlSpiel.Height; //Höhe des Scrollbalkens = Höhe des Spielfeldes
             vsbScrollbarrechts.Location =
                 new Point(pnlSpiel.Location.X + pnlSpiel.Width,
@@ -273,11 +277,12 @@ namespace Ping_Pong
         }
 
         //Richtungsänderung wenn einer der Buttons geklickt wird, Up, Down, Right, Left
-        private void btnW_Click(object sender, EventArgs e)
+
+        private void btnUp_Click(object sender, EventArgs e)
         {
-            if (btnUp.Enabled)
             {
-                picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y - 25);
+                if (btnUp.Enabled)
+                    picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y - 25);
             }
         }
 
@@ -304,7 +309,5 @@ namespace Ping_Pong
                 picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y + 25);
             }
         }
-
-       
     }
 }

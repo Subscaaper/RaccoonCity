@@ -7,8 +7,8 @@ namespace Ping_Pong
 {
     public partial class Gameover : Form
     {
-        
-
+        private static string filename = "Rangliste.txt";
+        private static string path = Application.StartupPath + filename;
         public Gameover()
         {
             InitializeComponent();
@@ -23,41 +23,13 @@ namespace Ping_Pong
         private void btnEintragen_Click(object sender, EventArgs e)
         {
             string name = txtName.Text;
-            //Eintrag in die Rangliste
-            lblErgebnisse.Text +=
-                String.Format("{0}, {1}, {2},", lblPunkte.Text, name, DateTime.Today.ToString("dd-MM-yy")) +
-                Environment.NewLine;
             
-            //Rangliste sortieren
-            string[] rangliste = lblErgebnisse.Text.Split(default(string[]), StringSplitOptions.RemoveEmptyEntries);
-            string[] punkte = new string[rangliste.Length / 3];
-            string[] textinhalt = new string[rangliste.Length];
-            int p = 0;
-            lblErgebnisse.Text = "";
-            for (int j = 0; j < punkte.Length; j++)
-            {
-                punkte[j] = rangliste[j * 3];
-            }
-            Array.Sort(punkte);
-            Array.Reverse(punkte);
-            for (int j = 0; j < punkte.Length; j++)
-            {
-                for (int i = 0; i < rangliste.Length - 2; i++)
-                {
-                    if (String.Equals(punkte[j], rangliste[i]))
-                    {
-                        textinhalt[p] = rangliste[i];
-                        textinhalt[p + 1] = rangliste[i + 1];
-                        textinhalt[p + 2] = rangliste[i + 2];
-                        p += 3;
-                        rangliste[i] = "";
-                        i += 2;                    }
-                }
-            }
-            for (int i = 0; i < textinhalt.Length-1; i++)
-            {
-                lblErgebnisse.Text += String.Format("{0,6} {1,15}   {2:d}\n", textinhalt[i++], textinhalt[i++], textinhalt[i]);
-            }
+            //Eintrag in die Rangliste
+            string text = String.Format("{0}, {1}, {2},", lblPunkte.Text, name, DateTime.Today.ToString("dd-MM-yy")) +
+                Environment.NewLine;
+            File.AppendAllText(path, text);
+            lblErgebnisse.Text = File.ReadAllText(Application.StartupPath + filename);
+
         }
         
         //Punkte sind als int definiert, werden zum darstellen in String konvertiert.
