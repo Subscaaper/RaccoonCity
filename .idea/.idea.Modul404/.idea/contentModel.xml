@@ -12,6 +12,9 @@
         <e p="Form1.cs" t="Include" />
         <e p="Form1.Designer.cs" t="Include" />
         <e p="Form1.resx" t="Include" />
+        <e p="Informationen.cs" t="Include" />
+        <e p="Informationen.Designer.cs" t="Include" />
+        <e p="Informationen.resx" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">

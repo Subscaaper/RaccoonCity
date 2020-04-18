@@ -8,3 +8,4 @@ G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.exe
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.pdb
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.Form1.resources
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.Informationen.resources
