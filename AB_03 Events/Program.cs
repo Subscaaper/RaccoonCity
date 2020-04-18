@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Maus_und_Tastatur_Klick
+namespace AB_03_Events
 {
     static class Program
     {

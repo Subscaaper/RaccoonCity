@@ -7,15 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
-namespace Maus_und_Tastatur_Klick
+namespace AB_03_Events
 {
     public partial class Form1 : Form
     {
-        private void txtAusgabe_TextChanged(object sender, EventArgs e)
+        public Form1()
         {
-            throw new System.NotImplementedException();
+            InitializeComponent();
+        }
+
+        private void txtausgabe_Click(object sender, EventArgs e)
+        {
+            txtausgabe.Enabled = true;
+            txtausgabe.Text += "Klick" + Environment.NewLine;
         }
     }
-        
 }

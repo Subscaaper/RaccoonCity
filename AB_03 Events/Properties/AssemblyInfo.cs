@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Maus_und_Tastatur_Klick")]
+[assembly: AssemblyTitle("AB_03_Events")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Maus_und_Tastatur_Klick")]
+[assembly: AssemblyProduct("AB_03_Events")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("F1EC9E09-7DB2-4B7E-8019-C261FF753317")]
+[assembly: Guid("9869E40C-D08C-483D-9E48-864B60642461")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Maus_und_Tastatur_Klick.Properties
+namespace AB_03_Events.Properties
 {
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
@@ -45,7 +45,7 @@ namespace Maus_und_Tastatur_Klick.Properties
                 if ((resourceMan == null))
                 {
                     global::System.Resources.ResourceManager temp =
-                        new global::System.Resources.ResourceManager("Maus_und_Tastatur_Klick.Properties.Resources",
+                        new global::System.Resources.ResourceManager("AB_03_Events.Properties.Resources",
                             typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
