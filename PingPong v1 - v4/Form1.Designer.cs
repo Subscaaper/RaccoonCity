@@ -58,10 +58,10 @@ namespace Ping_Pong
             // picBall
             // 
             this.picBall.BackColor = System.Drawing.Color.Red;
-            this.picBall.Location = new System.Drawing.Point(133, 70);
-            this.picBall.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.picBall.Location = new System.Drawing.Point(152, 94);
+            this.picBall.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.picBall.Name = "picBall";
-            this.picBall.Size = new System.Drawing.Size(27, 25);
+            this.picBall.Size = new System.Drawing.Size(31, 34);
             this.picBall.TabIndex = 0;
             this.picBall.TabStop = false;
             // 
@@ -71,27 +71,27 @@ namespace Ping_Pong
             this.pnlSpiel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlSpiel.Controls.Add(this.picSchlägerrechts);
             this.pnlSpiel.Controls.Add(this.picBall);
-            this.pnlSpiel.Location = new System.Drawing.Point(23, 25);
-            this.pnlSpiel.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pnlSpiel.Location = new System.Drawing.Point(26, 34);
+            this.pnlSpiel.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.pnlSpiel.Name = "pnlSpiel";
-            this.pnlSpiel.Size = new System.Drawing.Size(438, 260);
+            this.pnlSpiel.Size = new System.Drawing.Size(500, 346);
             this.pnlSpiel.TabIndex = 1;
             // 
             // picSchlägerrechts
             // 
             this.picSchlägerrechts.BackColor = System.Drawing.Color.White;
-            this.picSchlägerrechts.Location = new System.Drawing.Point(428, 16);
-            this.picSchlägerrechts.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.picSchlägerrechts.Location = new System.Drawing.Point(489, 21);
+            this.picSchlägerrechts.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.picSchlägerrechts.Name = "picSchlägerrechts";
-            this.picSchlägerrechts.Size = new System.Drawing.Size(9, 40);
+            this.picSchlägerrechts.Size = new System.Drawing.Size(10, 54);
             this.picSchlägerrechts.TabIndex = 1;
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(23, 354);
-            this.btnStart.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnStart.Location = new System.Drawing.Point(26, 472);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(117, 40);
+            this.btnStart.Size = new System.Drawing.Size(134, 54);
             this.btnStart.TabIndex = 2;
             this.btnStart.Text = "Spiel Starten";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -107,10 +107,10 @@ namespace Ping_Pong
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label1.Location = new System.Drawing.Point(23, 301);
+            this.label1.Location = new System.Drawing.Point(26, 401);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 29);
+            this.label1.Size = new System.Drawing.Size(95, 39);
             this.label1.TabIndex = 4;
             this.label1.Text = "Punkte :";
             // 
@@ -119,19 +119,19 @@ namespace Ping_Pong
             this.txtPunkte.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.txtPunkte.ForeColor = System.Drawing.Color.Purple;
-            this.txtPunkte.Location = new System.Drawing.Point(114, 301);
-            this.txtPunkte.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtPunkte.Location = new System.Drawing.Point(130, 401);
+            this.txtPunkte.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.txtPunkte.Name = "txtPunkte";
-            this.txtPunkte.Size = new System.Drawing.Size(83, 33);
+            this.txtPunkte.Size = new System.Drawing.Size(94, 39);
             this.txtPunkte.TabIndex = 5;
             this.txtPunkte.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // vsbScrollbarrechts
             // 
             this.vsbScrollbarrechts.LargeChange = 15;
-            this.vsbScrollbarrechts.Location = new System.Drawing.Point(463, 25);
+            this.vsbScrollbarrechts.Location = new System.Drawing.Point(529, 34);
             this.vsbScrollbarrechts.Name = "vsbScrollbarrechts";
-            this.vsbScrollbarrechts.Size = new System.Drawing.Size(20, 260);
+            this.vsbScrollbarrechts.Size = new System.Drawing.Size(20, 346);
             this.vsbScrollbarrechts.TabIndex = 6;
             this.vsbScrollbarrechts.Scroll +=
                 new System.Windows.Forms.ScrollEventHandler(this.vsbScrollbarrechts_Scroll);
@@ -139,10 +139,10 @@ namespace Ping_Pong
             // label2
             // 
             this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Location = new System.Drawing.Point(474, 312);
+            this.label2.Location = new System.Drawing.Point(542, 416);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(183, 87);
+            this.label2.Size = new System.Drawing.Size(209, 116);
             this.label2.TabIndex = 7;
             this.label2.Text =
                 "Steuerung\r\nW = horizontale Flugrichtung\r\nS = vertikale Flugrichtung\r\nP = Spiel Pa" +
@@ -151,10 +151,10 @@ namespace Ping_Pong
             // btnUp
             // 
             this.btnUp.ForeColor = System.Drawing.Color.Blue;
-            this.btnUp.Location = new System.Drawing.Point(558, 112);
-            this.btnUp.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnUp.Location = new System.Drawing.Point(638, 149);
+            this.btnUp.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.btnUp.Name = "btnUp";
-            this.btnUp.Size = new System.Drawing.Size(33, 30);
+            this.btnUp.Size = new System.Drawing.Size(38, 40);
             this.btnUp.TabIndex = 8;
             this.btnUp.Text = "Up";
             this.btnUp.UseVisualStyleBackColor = true;
@@ -162,10 +162,10 @@ namespace Ping_Pong
             // 
             // btnLeft
             // 
-            this.btnLeft.Location = new System.Drawing.Point(525, 141);
-            this.btnLeft.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnLeft.Location = new System.Drawing.Point(600, 188);
+            this.btnLeft.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.btnLeft.Name = "btnLeft";
-            this.btnLeft.Size = new System.Drawing.Size(35, 27);
+            this.btnLeft.Size = new System.Drawing.Size(40, 36);
             this.btnLeft.TabIndex = 9;
             this.btnLeft.Text = "Left";
             this.btnLeft.UseVisualStyleBackColor = true;
@@ -173,10 +173,10 @@ namespace Ping_Pong
             // 
             // btnDown
             // 
-            this.btnDown.Location = new System.Drawing.Point(558, 166);
-            this.btnDown.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnDown.Location = new System.Drawing.Point(638, 221);
+            this.btnDown.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.btnDown.Name = "btnDown";
-            this.btnDown.Size = new System.Drawing.Size(33, 29);
+            this.btnDown.Size = new System.Drawing.Size(38, 39);
             this.btnDown.TabIndex = 10;
             this.btnDown.Text = "Down";
             this.btnDown.UseVisualStyleBackColor = true;
@@ -184,10 +184,10 @@ namespace Ping_Pong
             // 
             // btnRight
             // 
-            this.btnRight.Location = new System.Drawing.Point(591, 141);
-            this.btnRight.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnRight.Location = new System.Drawing.Point(675, 188);
+            this.btnRight.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.btnRight.Name = "btnRight";
-            this.btnRight.Size = new System.Drawing.Size(30, 27);
+            this.btnRight.Size = new System.Drawing.Size(34, 36);
             this.btnRight.TabIndex = 11;
             this.btnRight.Text = "Right";
             this.btnRight.UseVisualStyleBackColor = true;
@@ -195,10 +195,10 @@ namespace Ping_Pong
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(211, 354);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.button1.Location = new System.Drawing.Point(241, 472);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 40);
+            this.button1.Size = new System.Drawing.Size(135, 54);
             this.button1.TabIndex = 12;
             this.button1.Text = "Beenden";
             this.button1.UseVisualStyleBackColor = true;
@@ -208,21 +208,21 @@ namespace Ping_Pong
             // 
             this.grpSteuerung.Controls.Add(this.rdbSchläger);
             this.grpSteuerung.Controls.Add(this.rdbBall);
-            this.grpSteuerung.Location = new System.Drawing.Point(516, 218);
-            this.grpSteuerung.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.grpSteuerung.Location = new System.Drawing.Point(590, 291);
+            this.grpSteuerung.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.grpSteuerung.Name = "grpSteuerung";
-            this.grpSteuerung.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.grpSteuerung.Size = new System.Drawing.Size(142, 89);
+            this.grpSteuerung.Padding = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.grpSteuerung.Size = new System.Drawing.Size(162, 119);
             this.grpSteuerung.TabIndex = 13;
             this.grpSteuerung.TabStop = false;
             this.grpSteuerung.Text = "Wahl der Steuerung";
             // 
             // rdbSchläger
             // 
-            this.rdbSchläger.Location = new System.Drawing.Point(12, 52);
-            this.rdbSchläger.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.rdbSchläger.Location = new System.Drawing.Point(14, 69);
+            this.rdbSchläger.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.rdbSchläger.Name = "rdbSchläger";
-            this.rdbSchläger.Size = new System.Drawing.Size(128, 18);
+            this.rdbSchläger.Size = new System.Drawing.Size(146, 24);
             this.rdbSchläger.TabIndex = 14;
             this.rdbSchläger.Text = "Schlägersteuerung";
             this.rdbSchläger.UseVisualStyleBackColor = true;
@@ -231,10 +231,10 @@ namespace Ping_Pong
             // 
             // rdbBall
             // 
-            this.rdbBall.Location = new System.Drawing.Point(12, 22);
-            this.rdbBall.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.rdbBall.Location = new System.Drawing.Point(14, 29);
+            this.rdbBall.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.rdbBall.Name = "rdbBall";
-            this.rdbBall.Size = new System.Drawing.Size(128, 18);
+            this.rdbBall.Size = new System.Drawing.Size(146, 24);
             this.rdbBall.TabIndex = 0;
             this.rdbBall.Text = "Ballsteuerung";
             this.rdbBall.UseVisualStyleBackColor = true;
@@ -243,10 +243,10 @@ namespace Ping_Pong
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(716, 428);
+            this.ClientSize = new System.Drawing.Size(818, 571);
             this.Controls.Add(this.grpSteuerung);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnRight);
@@ -261,7 +261,7 @@ namespace Ping_Pong
             this.Controls.Add(this.pnlSpiel);
             this.ForeColor = System.Drawing.Color.Blue;
             this.Location = new System.Drawing.Point(15, 15);
-            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize) (this.picBall)).EndInit();

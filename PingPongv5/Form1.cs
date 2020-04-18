@@ -11,6 +11,8 @@ namespace Ping_Pong
         public int directionY = 1;
         public int pointsPlayer;
         public int pointsCPU;
+        public int CPUdirectionX = 10;
+        public int CPUdirectionY = 10;
         public Random rand = new Random();
 
         //Ausführung des Programms Form1
@@ -22,12 +24,24 @@ namespace Ping_Pong
         //wird der Timer aktiviert, Spiel startet
         public void btnStart_Click(object sender, EventArgs e)
         {
-            directionX = 2;
-            directionY = 1;
-            tmrSpiel.Start();
             picBall.Location = new Point(pnlSpiel.Width / 2, pnlSpiel.Height / 2);
-
+            tmrSpiel.Start();
             pointsPlayer = 0;
+            pointsCPU = 0;
+        }
+
+        //Nach dem ein Punkt erzielt wurde kann man weiter drücke um weiter zu spielen.
+        private void button2_Click(object sender, EventArgs e)
+        {
+            tmrSpiel.Start();
+            picBall.Location = new Point(rand.Next(pnlSpiel.Width - picBall.Width),
+                rand.Next(pnlSpiel.Height - picBall.Height));
+        }
+
+        // Spiel wird geschlossen
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
         }
 
         //Im Timer läuft das Spiel ab
@@ -37,27 +51,40 @@ namespace Ping_Pong
             picBall.Location = new Point(picBall.Location.X + directionX,
                 picBall.Location.Y + directionY);
 
-            //(If-Erklärung) Wenn  (0-407 >= 398) && (0-253 >= 0-223) && (0-238 <= 0-263) wenn alle 3 true sind 
-            //Ball trifft auf Schläger
+            //(If-Erklärung) Wenn  (0-466 >= 398) && (0-253 >= 0-223) && (0-311 <= 0-182) wenn alle 3 true sind 
+            //Ball trifft auf Player Schläger
             if (picBall.Location.X >= pnlSpiel.Width - picBall.Width - picSchlägerrechts.Width
-                && picBall.Location.Y + picBall.Height >= picSchlägerrechts.Location.Y
+                && picBall.Location.Y + picBall.Height >= picSchlägerrechts.Location.Y 
                 && picBall.Location.Y <= picSchlägerrechts.Location.Y + picSchlägerrechts.Height)
             {
-                //directionX bekommt einen neuen Wert zugewiesen
                 directionX = -directionX;
             }
+
+            //Wenn der Ball den CPUSchläger trifft
+            if (picBall.Location.X <= picCPU.Width //trifft
+                && picBall.Location.Y + picBall.Height >= picCPU.Location.Y //trifft
+                && picBall.Location.Y <= picCPU.Location.Y + (pnlSpiel.Height - picCPU.Height)) //trifft
+            {
+                directionX = +directionX;
+            }
+
 
             //Ball trifft auf linken Spielrand 
             if (picBall.Location.X <= 0)
             {
-                directionX = -directionX;
                 tmrSpiel.Stop();
                 pointsPlayer += 10;
             }
 
+            //Ball trifft auf rechten Spielrand
+            if (picBall.Location.X >= pnlSpiel.Width - picBall.Width)
+            {
+                tmrSpiel.Stop();
+                pointsCPU += 10;
+            }
+
             //Ball trifft auf unteren Spielrand 
-            if (picBall.Location.Y >= pnlSpiel.Height - picBall.Height
-            )
+            if (picBall.Location.Y >= pnlSpiel.Height - picBall.Height)
             {
                 directionY = -directionY;
             }
@@ -69,53 +96,43 @@ namespace Ping_Pong
                 directionY = -directionY;
             }
 
-            //Ball trifft auf rechten Spielrand
-            if (picBall.Location.X >= pnlSpiel.Width - picBall.Width)
+            //CPUSchläger an eine Random Position setzen während dem Spiel
+            if (picBall.Location.Y >= 0 && picBall.Location.Y <= pnlSpiel.Height / 2)
             {
-                tmrSpiel.Stop();
-                pointsCPU += 10;
+                picCPU.Location = new Point(pnlSpiel.Location.X, picBall.Location.Y - CPUdirectionY + picBall.Height);
             }
 
-            //CPUSchläger an eine Random Position setzen
-            if (picBall.Location.Y >= pnlSpiel.Height / 2 - pnlSpiel.Location.Y)
+            if (picBall.Location.Y >= pnlSpiel.Height / 2 && picBall.Location.Y < pnlSpiel.Height)
             {
-                picCPU.Location = new Point(pnlSpiel.Width,
-                    rand.Next(pnlSpiel.Height - picSchlägerrechts.Height));
-            }
-
-            //Wenn der Ball den CPUSchläger berührt
-            if (picBall.Location.X >= pnlSpiel.Location.X - picCPU.Width
-                && picBall.Location.Y + picBall.Height >= picCPU.Location.Y
-                && picBall.Location.Y <= picCPU.Location.Y + picCPU.Height)
-            {
-                directionX = +directionX;
+                picCPU.Location = new Point(pnlSpiel.Location.X , picBall.Location.Y + CPUdirectionY - picBall.Height);
             }
 
             //Wenn 100 Punkte erreicht worden sind, dann ist das Spiel fertig, und das andere Formular öffnet sich
-            if (pointsPlayer == 100)
+            if (pointsPlayer == 50 || pointsCPU == 50)
             {
+                tmrSpiel.Stop();
                 Score.Show();
-            }
-
-            if (pointsCPU == 100)
-            {
-                
+                Score.SetPointsCPlayer(pointsPlayer);
+                Score.SetPointsCPU(pointsCPU);
             }
 
             txtPunkte.Text =
-                Convert.ToString(
-                    pointsCPU); //Punkte sind als int definiert, werden zum darstellen in String konvertiert.
+                Convert.ToString(pointsCPU);
+
             txtPunktePlayer.Text =
                 Convert.ToString(pointsPlayer);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Schläger ganz rechts ins Panel setzen //Ausgangsposition vom Schläger X und Y Koordinaten 489, 128
+            //Player Schläger ganz rechts ins Panel setzen
             picSchlägerrechts.Location = new Point(pnlSpiel.Width - picSchlägerrechts.Width, pnlSpiel.Height / 2);
-            picCPU.Location = new Point(pnlSpiel.Location.X, pnlSpiel.Height / 2);
-            //Scrollbar rechts Werte setzen
 
+            //CPU Schläger ganz links ins Panel setzen
+            picCPU.Location = new Point(pnlSpiel.Location.X, pnlSpiel.Height / 2);
+
+
+            //Scrollbar rechts Werte setzen
             vsbScrollbarrechts.Height = pnlSpiel.Height; //Höhe des Scrollbalkens = Höhe des Spielfeldes
             vsbScrollbarrechts.Location =
                 new Point(pnlSpiel.Location.X + pnlSpiel.Width,
@@ -135,12 +152,6 @@ namespace Ping_Pong
                     vsbScrollbarrechts.Value); //Location ist 421,128 neue Location ist 428,0 
             vsbScrollbarrechts.Value =
                 picSchlägerrechts.Location.Y; //Wert von value wird definiert, auf den Location Y Wert vom Schläger
-        }
-
-        // Spiel wird geschlossen
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Close();
         }
 
 
@@ -176,5 +187,8 @@ namespace Ping_Pong
                     break;
             }
         }
+
+
+        
     }
 }

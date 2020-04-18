@@ -12,16 +12,27 @@ namespace Ping_Pong
         {
             InitializeComponent();
         }
+        public void SetPointsCPU(int pointsCPU)
+        {
+           
+            lblPunkteCPU.Text = Convert.ToString(pointsCPU);
+        }
+        
+        public void SetPointsCPlayer(int pointsPlayer)
+        {
+            lblPunktePlayer.Text = Convert.ToString(pointsPlayer);
+        }
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnretry_Click(object sender, EventArgs e)
         {
             Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             Close();
+         
         }
     }
 }

@@ -42,7 +42,10 @@
             this.txtAusgabe.Size = new System.Drawing.Size(422, 336);
             this.txtAusgabe.TabIndex = 0;
             this.txtAusgabe.TextChanged += new System.EventHandler(this.txtAusgabe_TextChanged);
-          
+            this.txtAusgabe.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtAusgabe_KeyDown);
+            this.txtAusgabe.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAusgabe_KeyPress);
+            this.txtAusgabe.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtAusgabe_MouseDown);
+            this.txtAusgabe.MouseUp += new System.Windows.Forms.MouseEventHandler(this.txtAusgabe_MouseUp);
             // 
             // Form1
             // 
@@ -53,6 +56,8 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Click += new System.EventHandler(this.Form1_Click);
+            this.DoubleClick += new System.EventHandler(this.Form1_DoubleClick);
             this.ResumeLayout(false);
             this.PerformLayout();
         }
