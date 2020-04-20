@@ -53,7 +53,7 @@ namespace Ping_Pong
             // picBall
             // 
             this.picBall.BackColor = System.Drawing.Color.Red;
-            this.picBall.Location = new System.Drawing.Point(472, 228);
+            this.picBall.Location = new System.Drawing.Point(179, 148);
             this.picBall.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.picBall.Name = "picBall";
             this.picBall.Size = new System.Drawing.Size(33, 34);

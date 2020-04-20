@@ -39,11 +39,11 @@
             this.txtausgabe.Enabled = false;
             this.txtausgabe.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.txtausgabe.Location = new System.Drawing.Point(105, 65);
+            this.txtausgabe.Location = new System.Drawing.Point(105, 11);
             this.txtausgabe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtausgabe.Multiline = true;
             this.txtausgabe.Name = "txtausgabe";
-            this.txtausgabe.Size = new System.Drawing.Size(390, 406);
+            this.txtausgabe.Size = new System.Drawing.Size(390, 540);
             this.txtausgabe.TabIndex = 0;
             // 
             // btnInfo
@@ -63,7 +63,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 562);
+            this.ClientSize = new System.Drawing.Size(764, 562);
             this.Controls.Add(this.btnInfo);
             this.Controls.Add(this.txtausgabe);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);

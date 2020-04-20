@@ -62,8 +62,8 @@ namespace Ping_Pong
 
             //Wenn der Ball den CPUSchläger trifft
             if (picBall.Location.X <= picCPU.Width //trifft
-                && picBall.Location.Y + picBall.Height >= picCPU.Location.Y //trifft
-                && picBall.Location.Y <= picCPU.Location.Y + (pnlSpiel.Height - picCPU.Height)) //trifft
+                && picBall.Location.Y <= picCPU.Location.Y + picBall.Height //trifft
+                && picBall.Location.Y >= picCPU.Location.Y - picCPU.Height - picBall.Height) //trifft
             {
                 directionX = +directionX;
             }

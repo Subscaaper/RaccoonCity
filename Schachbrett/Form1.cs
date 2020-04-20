@@ -17,6 +17,15 @@ namespace Schachbrett
             InitializeComponent();
         }
 
-        
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            var brettbreite =
+                var bretthoehe = schachbrett.Height;
+            var zellenbreite = brettbreite / anzahl;
+            var zellenhoehe = bretthoehe / anzahl;
+            var geradeZeile = true;
+            pnlSchachbrett.Controls.Clear();
+        }
     }
 }
