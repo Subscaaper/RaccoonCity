@@ -100,7 +100,7 @@ namespace Ping_Pong
         private void Form1_Load(object sender, EventArgs e)
         {
             //Schläger ganz rechts ins Panel setzen
-            //Ausgangsposition vom Schläger X und Y Koordinaten 489, 128
+            //Ausgangsposition vom Schläger X und Y Koordinaten festlegen
             picSchlägerrechts.Location = new Point(pnlSpiel.Width - picSchlägerrechts.Width, pnlSpiel.Height / 2);
 
             //Scrollbar rechts Werte setzen
@@ -115,7 +115,7 @@ namespace Ping_Pong
             vsbScrollbarrechts.Value = picSchlägerrechts.Location.Y; //Wo der Balken ist zum Scrollen
         }
 
-
+        //Scrollbar neben den Schläger setzen
         private void vsbScrollbarrechts_Scroll(object sender, ScrollEventArgs e)
         {
             picSchlägerrechts.Location =
@@ -280,34 +280,22 @@ namespace Ping_Pong
 
         private void btnUp_Click(object sender, EventArgs e)
         {
-            {
-                if (btnUp.Enabled)
-                    picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y - 25);
-            }
+            picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y - 25);
         }
 
         private void btnLeft_Click(object sender, EventArgs e)
         {
-            if (btnLeft.Enabled)
-            {
-                picBall.Location = new Point(picBall.Location.X - 25, picBall.Location.Y + 0);
-            }
+            picBall.Location = new Point(picBall.Location.X - 25, picBall.Location.Y + 0);
         }
 
         private void btnRight_Click(object sender, EventArgs e)
         {
-            if (btnRight.Enabled)
-            {
-                picBall.Location = new Point(picBall.Location.X + 25, picBall.Location.Y + 0);
-            }
+            picBall.Location = new Point(picBall.Location.X + 25, picBall.Location.Y + 0);
         }
 
         private void btnDown_Click(object sender, EventArgs e)
         {
-            if (btnDown.Enabled)
-            {
-                picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y + 25);
-            }
+            picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y + 25);
         }
     }
 }

@@ -17,6 +17,7 @@ namespace Taschenrechner
             InitializeComponent();
         }
 
+        //Addieren
         private void btnAddition_Click(object sender, EventArgs e)
         {
             double zahl1 = Convert.ToDouble(txtOperand1.Text);
@@ -26,6 +27,7 @@ namespace Taschenrechner
             lblOperator.Text = "+";
         }
 
+        //Subtrahieren
         private void btnSubtraktion_Click(object sender, EventArgs e)
         {
             double zahl1 = Convert.ToDouble(txtOperand1.Text);
@@ -35,7 +37,7 @@ namespace Taschenrechner
             lblOperator.Text = "-";
         }
 
-
+        //Mittelwert
         private void btnMittelwert_Click(object sender, EventArgs e)
         {
             double zahl1 = Convert.ToDouble(txtOperand1.Text);
@@ -45,6 +47,7 @@ namespace Taschenrechner
             lblOperator.Text = "Durchschnitt";
         }
 
+        //Maximumwert
         private void btnMaximum_Click(object sender, EventArgs e)
         {
             double zahl1 = Convert.ToDouble(txtOperand1.Text);
@@ -54,6 +57,7 @@ namespace Taschenrechner
             lblOperator.Text = "Max";
         }
 
+        //Minimumwert
         private void btnPotenz_Click(object sender, EventArgs e)
         {
             double zahl1 = Convert.ToDouble(txtOperand1.Text);
@@ -62,8 +66,8 @@ namespace Taschenrechner
             lblErgebnis.Text = Convert.ToString(ergebnis);
             lblOperator.Text = "Potenz";
         }
-        
 
+        //Multiplikation
         private void btnMultiplikation_Click(object sender, EventArgs e)
         {
             double zahl1 = Convert.ToDouble(txtOperand1.Text);
@@ -73,6 +77,7 @@ namespace Taschenrechner
             lblOperator.Text = "*";
         }
 
+        //Division
         private void button1_Click(object sender, EventArgs e)
         {
             double zahl1 = Convert.ToDouble(txtOperand1.Text);

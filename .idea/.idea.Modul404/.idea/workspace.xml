@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d55cd4fc-af7e-44fb-81c7-55895a4ef396" name="Default Changelist" comment="AB_03 Resize Event">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PingPong v5/bin/DebugRangliste.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PingPong v5/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schachbrett/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schachbrett/bin/Debug/Schachbrett.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/bin/Debug/Schachbrett.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schachbrett/bin/Debug/Schachbrett.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/bin/Debug/Schachbrett.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Schachbrett/obj/Debug/Schachbrett.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong v5 .csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong v5 .csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Taschenrechner/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/Form1.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Taschenrechner/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/bin/Debug/Taschenrechner.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/bin/Debug/Taschenrechner.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/bin/Debug/Taschenrechner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/bin/Debug/Taschenrechner.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner/obj/Debug/Taschenrechner.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +67,8 @@
         <option value="$PROJECT_DIR$/AB_03 Events/Informationen.Designer.cs" />
         <option value="$PROJECT_DIR$/AB_03 Events/Informationen.cs" />
         <option value="$PROJECT_DIR$/PingPongv5 - Zusatzaufgabe/Form1.cs" />
-        <option value="$PROJECT_DIR$/Taschenrechner/Form1.cs" />
         <option value="$PROJECT_DIR$/Schachbrett/Form1.cs" />
+        <option value="$PROJECT_DIR$/Taschenrechner/Form1.cs" />
         <option value="$PROJECT_DIR$/PingPong v5/Form1.cs" />
       </list>
     </option>
@@ -136,14 +127,14 @@
       </method>
     </configuration>
     <configuration name="Ping Pong" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/Schachbrett/bin/Debug/Schachbrett.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Schachbrett/bin/Debug" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PingPong v5/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Schachbrett/Schachbrett.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/PingPong v5/Ping Pong v5 .csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -210,7 +201,7 @@
       <workItem from="1587396627413" duration="745000" />
       <workItem from="1587397523660" duration="1214000" />
       <workItem from="1587634973724" duration="1136000" />
-      <workItem from="1587636191540" duration="4030000" />
+      <workItem from="1587636191540" duration="7406000" />
     </task>
     <task id="LOCAL-00001" summary="Second Try">
       <created>1586198217278</created>
@@ -401,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587637775363</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Final Push">
+      <created>1587644949402</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1587644949402</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +438,8 @@
     <MESSAGE value="AB_03 Fertig" />
     <MESSAGE value="AB_03 Resize Event" />
     <MESSAGE value="Pong v5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pong v5" />
+    <MESSAGE value="Final Push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Push" />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="83" key="#" timestamp="1587228379567">
