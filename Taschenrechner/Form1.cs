@@ -62,16 +62,7 @@ namespace Taschenrechner
             lblErgebnis.Text = Convert.ToString(ergebnis);
             lblOperator.Text = "Potenz";
         }
-
-        private void btnWörterrechnen_Click(object sender, EventArgs e)
-        {
-            string eingabe1 = txtOperand1.Text;
-            string eingabe2 = txtOperand2.Text;
-            string ergebnis = eingabe1 + eingabe2;
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "+";
-            
-        }
+        
 
         private void btnMultiplikation_Click(object sender, EventArgs e)
         {
@@ -80,6 +71,15 @@ namespace Taschenrechner
             double ergebnis = zahl1 * zahl2;
             lblErgebnis.Text = Convert.ToString(ergebnis);
             lblOperator.Text = "*";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double zahl1 = Convert.ToDouble(txtOperand1.Text);
+            double zahl2 = Convert.ToDouble(txtOperand2.Text);
+            double ergebnis = zahl1 / zahl2;
+            lblErgebnis.Text = Convert.ToString(ergebnis);
+            lblOperator.Text = "/";
         }
     }
 }

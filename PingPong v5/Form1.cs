@@ -175,8 +175,8 @@ namespace Ping_Pong
         }
 
         /*override, das erste if aktiviert die Ballsteuerung mit Pfeiltasten bei der Ballsteuerung,
-         das zweite if aktiviert die Ballsteuerung mit Pfeiltasten bei der Schlägersteuerung und das else, dass man nicht 
-         über die elemente fährt.
+         das zweite if aktiviert die Ballsteuerung mit Pfeiltasten bei der Schlägersteuerung und das else, dass man mit den 
+         Pfeiltasten nicht über die Elemente bewegt
          */
         protected override bool ProcessDialogKey(Keys keyData)
         {
