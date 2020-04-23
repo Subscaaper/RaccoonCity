@@ -4,7 +4,6 @@ G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\bin\
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03 Events.csprojAssemblyReference.cache
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.Properties.Resources.resources
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03 Events.csproj.GenerateResource.cache
-G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03 Events.csproj.CoreCompileInputs.cache
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.exe
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.pdb
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.Form1.resources
