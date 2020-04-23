@@ -141,10 +141,10 @@ namespace Ping_Pong
                     case Keys.P:
                         tmrSpiel.Stop();
                         break;
-                    case Keys.F:
+                    case Keys.S:
                         tmrSpiel.Start();
                         break;
-                    case Keys.S:
+                    case Keys.V:
                         if (directionY > directionX)
                         {
                             directionX = +directionX;
@@ -157,7 +157,7 @@ namespace Ping_Pong
                         }
 
                         break;
-                    case Keys.W:
+                    case Keys.H:
                         if (directionX > directionY)
                         {
                             directionX = -directionX;
