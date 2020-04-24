@@ -47,14 +47,14 @@ namespace AB_03_Events
             this.btnschliessen.UseVisualStyleBackColor = true;
             this.btnschliessen.Click += new System.EventHandler(this.btnschliessen_Click);
             // 
-            // frmInformationen
+            // Informationen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(582, 552);
             this.Controls.Add(this.btnschliessen);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "frmInformationen";
+            this.Name = "Informationen";
             this.Text = "Informationen";
             this.Resize += new System.EventHandler(this.Informationen_Resize);
             this.ResumeLayout(false);

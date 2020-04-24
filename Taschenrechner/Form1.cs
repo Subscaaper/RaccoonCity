@@ -12,6 +12,8 @@ namespace Taschenrechner
 {
     public partial class Form1 : Form
     {
+        Rechenoperationen _rechenoperationen = new Rechenoperationen();
+
         public Form1()
         {
             InitializeComponent();
@@ -20,71 +22,44 @@ namespace Taschenrechner
         //Addieren
         private void btnAddition_Click(object sender, EventArgs e)
         {
-            double zahl1 = Convert.ToDouble(txtOperand1.Text);
-            double zahl2 = Convert.ToDouble(txtOperand2.Text);
-            double ergebnis = zahl1 + zahl2;
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "+";
+            _rechenoperationen.Addition(txtOperand1, txtOperand2, lblErgebnis, lblOperator);
         }
 
         //Subtrahieren
         private void btnSubtraktion_Click(object sender, EventArgs e)
         {
-            double zahl1 = Convert.ToDouble(txtOperand1.Text);
-            double zahl2 = Convert.ToDouble(txtOperand2.Text);
-            double ergebnis = zahl1 - zahl2;
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "-";
-        }
-
-        //Mittelwert
-        private void btnMittelwert_Click(object sender, EventArgs e)
-        {
-            double zahl1 = Convert.ToDouble(txtOperand1.Text);
-            double zahl2 = Convert.ToDouble(txtOperand2.Text);
-            double ergebnis = (zahl1 + zahl2) / 2;
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "Durchschnitt";
-        }
-
-        //Maximumwert
-        private void btnMaximum_Click(object sender, EventArgs e)
-        {
-            double zahl1 = Convert.ToDouble(txtOperand1.Text);
-            double zahl2 = Convert.ToDouble(txtOperand2.Text);
-            double ergebnis = Math.Max(zahl1, zahl2);
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "Max";
-        }
-
-        //Minimumwert
-        private void btnPotenz_Click(object sender, EventArgs e)
-        {
-            double zahl1 = Convert.ToDouble(txtOperand1.Text);
-            double zahl2 = Convert.ToDouble(txtOperand2.Text);
-            double ergebnis = Math.Pow(zahl1, zahl2);
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "Potenz";
+            _rechenoperationen.Subtraktion(txtOperand1, txtOperand2, lblErgebnis, lblOperator);
         }
 
         //Multiplikation
         private void btnMultiplikation_Click(object sender, EventArgs e)
         {
-            double zahl1 = Convert.ToDouble(txtOperand1.Text);
-            double zahl2 = Convert.ToDouble(txtOperand2.Text);
-            double ergebnis = zahl1 * zahl2;
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "*";
+            _rechenoperationen.Multiplikation(txtOperand1, txtOperand2, lblErgebnis, lblOperator);
         }
 
         //Division
         private void button1_Click(object sender, EventArgs e)
         {
-            double zahl1 = Convert.ToDouble(txtOperand1.Text);
-            double zahl2 = Convert.ToDouble(txtOperand2.Text);
-            double ergebnis = zahl1 / zahl2;
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "/";
+            _rechenoperationen.Division(txtOperand1, txtOperand2, lblErgebnis, lblOperator);
+        }
+
+        //Maximum
+        private void btnMaximum_Click(object sender, EventArgs e)
+        {
+            _rechenoperationen.Maximum(txtOperand1, txtOperand2, lblErgebnis, lblOperator);
+        }
+
+        //Potenz
+        private void btnPotenz_Click(object sender, EventArgs e)
+        {
+            _rechenoperationen.Potenz(txtOperand1, txtOperand2, lblErgebnis, lblOperator);
+        }
+
+
+        //Mittelwert
+        private void btnMittelwert_Click(object sender, EventArgs e)
+        {
+            _rechenoperationen.Mittelwert(txtOperand1, txtOperand2, lblErgebnis, lblOperator);
         }
     }
 }

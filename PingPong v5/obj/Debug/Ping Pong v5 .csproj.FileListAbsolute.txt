@@ -8,3 +8,4 @@ G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v5\obj\D
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v5\obj\Debug\Ping Pong v5 .csproj.GenerateResource.cache
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v5\obj\Debug\Ping_Pong.exe
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v5\obj\Debug\Ping_Pong.pdb
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v5\obj\Debug\Ping Pong v5 .csproj.CoreCompileInputs.cache
