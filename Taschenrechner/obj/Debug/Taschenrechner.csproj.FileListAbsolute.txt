@@ -37,3 +37,12 @@ G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\ob
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.exe
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.pdb
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\RiderProjects\Modul404\Taschenrechner\bin\Debug\Taschenrechner.exe.config
+C:\Users\Kevin\RiderProjects\Modul404\Taschenrechner\bin\Debug\Taschenrechner.exe
+C:\Users\Kevin\RiderProjects\Modul404\Taschenrechner\bin\Debug\Taschenrechner.pdb
+C:\Users\Kevin\RiderProjects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.csprojAssemblyReference.cache
+C:\Users\Kevin\RiderProjects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.Form1.resources
+C:\Users\Kevin\RiderProjects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.Properties.Resources.resources
+C:\Users\Kevin\RiderProjects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.csproj.GenerateResource.cache
+C:\Users\Kevin\RiderProjects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.exe
+C:\Users\Kevin\RiderProjects\Modul404\Taschenrechner\obj\Debug\Taschenrechner.pdb

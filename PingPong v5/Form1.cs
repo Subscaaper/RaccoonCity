@@ -1,17 +1,20 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace Ping_Pong
 {
     public partial class Form1 : Form
     {
-        Gameover frmGameover = new Gameover();
-        public int directionX = 2;
-        public int directionY = 1;
-        public int points;
+        private int directionX;
+        private int directionY;
+        public int CPUdirectionY;
+        private int pointsPlayer;
+        private int pointsCpu;
 
-        public Random rand = new Random();
+        Gameover gameover = new Gameover();
+        private Random rand = new Random();
 
         //Ausführung des Programms Form1
         public Form1()
@@ -22,13 +25,39 @@ namespace Ping_Pong
         //wird der Timer aktiviert, Spiel startet
         public void btnStart_Click(object sender, EventArgs e)
         {
-            directionX = 2;
-            directionY = 1;
+            SetDirection();
             tmrSpiel.Start();
-            picBall.Location = new Point(rand.Next(0, pnlSpiel.Width - picBall.Width),
-                rand.Next(0, pnlSpiel.Height - picBall.Height));
+            picBall.Location = new Point(pnlSpiel.Width / 2,
+                pnlSpiel.Height / 2);
 
-            points = 0;
+            pointsPlayer = 0;
+            pointsCpu = 0;
+            btnSetBall.Visible = true;
+        }
+
+        //Continues the game by clicking on the button, after a point is made, ball spawns in the middle
+        private void btnSetBall_Click(object sender, EventArgs e)
+        {
+            tmrSpiel.Start();
+            SetDirection();
+            picBall.Location = new Point(pnlSpiel.Width / 2,
+                pnlSpiel.Height / 2);
+        }
+
+        public void SetDirection()
+        {
+            directionX = rand.Next(-4, 4);
+            directionY = rand.Next(-4, 4);
+
+            if (directionX == 0 || directionY == 0)
+            {
+                SetDirection();
+            }
+        }
+
+        public void SetCpuDirection(int direction)
+        {
+            CPUdirectionY = direction;
         }
 
         //Im Timer läuft das Spiel ab
@@ -38,91 +67,126 @@ namespace Ping_Pong
             picBall.Location = new Point(picBall.Location.X + directionX,
                 picBall.Location.Y + directionY);
 
-            //(If-Erklärung) Wenn  (0-407 >= 398) && (0-253 >= 0-223) && (0-238 <= 0-263) wenn alle 3 true sind 
             //Ball trifft auf Schläger
-            if (picBall.Location.X >= pnlSpiel.Width - picBall.Width - picSchlägerrechts.Width
-                && picBall.Location.Y + picBall.Height >= picSchlägerrechts.Location.Y
-                && picBall.Location.Y <= picSchlägerrechts.Location.Y + picSchlägerrechts.Height)
+            if (picBall.Location.X >= pnlSpiel.Width - picBall.Width - picPlayer.Width //>= 540
+                && picBall.Location.Y + picBall.Height >= picPlayer.Location.Y //Ball Punkt unten links gleich Y oben links von Player 
+                && picBall.Location.Y <= picPlayer.Location.Y + picPlayer.Height) //Ball Punkt oben links gleich Y unten links von Player
             {
-                //directionX bekommt einen neuen Wert zugewiesen
                 directionX = -directionX;
-                points += 10;
-                //Wenn die Ballsteuerung aktiviert ist, dann springt der Schlägerrechts an eine Zufällige Position, sobald er vom Ball getroffen wurde
-                if (rdbBall.Checked)
-                {
-                    picSchlägerrechts.Location = new Point(pnlSpiel.Width - picSchlägerrechts.Width,
-                        rand.Next(pnlSpiel.Height - picSchlägerrechts.Height));
-                }
+            }
+
+            //Wenn der Ball den CPUSchläger trifft
+            if (picBall.Location.X <= picCPU.Width
+                && picBall.Location.Y + picBall.Height >= picCPU.Location.Y
+                && picBall.Location.Y <= picCPU.Location.Y + picCPU.Height)
+            {
+                directionX = +directionX;
             }
 
             //Ball trifft auf linken Spielrand 
             if (picBall.Location.X <= 0)
-                //directionX bekommt einen neuen Wert zugewiesen
             {
-                directionX = -directionX;
-            }
-
-            //Ball trifft auf unteren Spielrand 
-            if (picBall.Location.Y >= pnlSpiel.Height - picBall.Height
-            )
-            {
-                directionY = -directionY;
-            }
-
-            //Ball trifft auf oberen Spielrand 
-            if (picBall.Location.Y < 0
-            ) /*Wenn die Distanz Y des Balls kleiner als 0 ist, dann ist DistanzY gleich -DistanzY */
-            {
-                directionY = -directionY;
+                tmrSpiel.Stop();
+                pointsPlayer += 10;
             }
 
             //Ball trifft auf rechten Spielrand
             if (picBall.Location.X >= pnlSpiel.Width - picBall.Width)
             {
                 tmrSpiel.Stop();
-                frmGameover.Show();
-                frmGameover.SetPoints(points);
+                pointsCpu += 10;
             }
 
-
-            if (points % 50 == 0)
+            //Ball trifft auf unteren Spielrand 
+            if (picBall.Location.Y >= pnlSpiel.Height - picBall.Height)
             {
-                tmrSpiel.Interval = Math.Max(tmrSpiel.Interval - 20, 20);
-                picBall.BackColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
+                directionY = -directionY;
             }
 
+            //Ball trifft auf oberen Spielrand 
+            if (picBall.Location.Y < 0)
+            {
+                directionY = -directionY;
+            }
 
-            txtPunkte.Text =
-                Convert.ToString(points); //Punkte sind als int definiert, werden zum darstellen in String konvertiert.
+            /*CPU Player position, if the ball is in the top half of the panel it goes up, otherwise down*/
+            if (picBall.Location.Y >= 0 && picBall.Location.Y <= pnlSpiel.Height / 2)
+            {
+                SetCpuDirection(3);
+                picCPU.Location = new Point(1, picCPU.Location.Y - CPUdirectionY);
+            }
+
+            //Bottom half
+            if (picBall.Location.Y >= pnlSpiel.Height / 2 && picBall.Location.Y < pnlSpiel.Height)
+            {
+                SetCpuDirection(3);
+                picCPU.Location = new Point(1, picCPU.Location.Y + CPUdirectionY);
+            }
+
+            //If CPU is at the top
+            if (picCPU.Location.Y <= 0)
+            {
+                if (picBall.Location.Y >= 0 && picBall.Location.Y <= (pnlSpiel.Height - pnlSpiel.Height) + picBall.Height)
+                {
+                  SetCpuDirection(0);  
+                  picCPU.Location = picCPU.Location;
+                }
+                else
+                {
+                    SetCpuDirection(3);
+                                    picCPU.Location = new Point(1, picCPU.Location.Y + CPUdirectionY);
+                }
+                
+            }
+
+            //If CPU is at the bottom
+            if (picCPU.Location.Y + picCPU.Height >= pnlSpiel.Height)
+            {
+                picCPU.Location = new Point(1, picCPU.Location.Y + CPUdirectionY);
+            }
+
+            //Wenn 50 Punkte erreicht worden sind, dann ist das Spiel fertig, und das andere Formular öffnet sich
+            if (pointsPlayer == 50 || pointsCpu == 50)
+            {
+                tmrSpiel.Stop();
+                gameover.Show();
+                gameover.SetPointsPlayer(pointsPlayer);
+                gameover.SetPointsCPU(pointsCpu);
+            }
+
+            txtPlayerPoints.Text = Convert.ToString(pointsPlayer);
+            txtCpuPoints.Text = Convert.ToString(pointsCpu);
         }
 
-
+        /*
+         * Schläger ganz rechts ins Panel setzen
+         * Ausgangsposition vom Schläger X und Y Koordinaten festlegen
+         */
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Schläger ganz rechts ins Panel setzen
-            //Ausgangsposition vom Schläger X und Y Koordinaten festlegen
-            picSchlägerrechts.Location = new Point(pnlSpiel.Width - picSchlägerrechts.Width, pnlSpiel.Height / 2);
+            picPlayer.Location = new Point(pnlSpiel.Width - picPlayer.Width, pnlSpiel.Height / 2);
 
-            //Scrollbar rechts Werte setzen
-            vsbScrollbarrechts.Height = pnlSpiel.Height; //Höhe des Scrollbalkens = Höhe des Spielfeldes
+            picCPU.Location = new Point(pnlSpiel.Location.Y - pnlSpiel.Location.Y, pnlSpiel.Height / 2);
+
+            vsbScrollbarrechts.Height = pnlSpiel.Height;
             vsbScrollbarrechts.Location =
                 new Point(pnlSpiel.Location.X + pnlSpiel.Width,
-                    pnlSpiel.Location.Y); //Start Location wo die Scrollbar ist, wenn sich das 'Formular' öffnet
+                    pnlSpiel.Location.Y);
             vsbScrollbarrechts.Minimum = 0;
             vsbScrollbarrechts.Maximum =
-                pnlSpiel.Height - picSchlägerrechts.Height +
-                vsbScrollbarrechts.LargeChange; //Wie gross der Balken ist im Scrollbalken zum scrollen
-            vsbScrollbarrechts.Value = picSchlägerrechts.Location.Y; //Wo der Balken ist zum Scrollen
+                pnlSpiel.Height - picPlayer.Height +
+                vsbScrollbarrechts.LargeChange;
+            vsbScrollbarrechts.Value = picPlayer.Location.Y;
         }
 
         //Scrollbar neben den Schläger setzen
         private void vsbScrollbarrechts_Scroll(object sender, ScrollEventArgs e)
         {
-            picSchlägerrechts.Location =
-                new Point(picSchlägerrechts.Location.X,
-                    vsbScrollbarrechts.Value); //Location ist 421,128 neue Location ist 428,0 
+            picPlayer.Location =
+                new Point(picPlayer.Location.X,
+                    vsbScrollbarrechts.Value);
             vsbScrollbarrechts.Value =
-                picSchlägerrechts.Location.Y; //Wert von value wird definiert, auf den Location Y Wert vom Schläger
+                picPlayer.Location.Y;
         }
 
         // Spiel wird geschlossen
@@ -131,98 +195,10 @@ namespace Ping_Pong
             Close();
         }
 
-        //Wenn Ballsteuerung ausgewählt ist, dann sind folgende Tasten aktiviert
-        private void rdbBall_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (rdbBall.Checked)
-            {
-                switch (e.KeyData)
-                {
-                    case Keys.P:
-                        tmrSpiel.Stop();
-                        break;
-                    case Keys.S:
-                        tmrSpiel.Start();
-                        break;
-                    case Keys.V:
-                        if (directionY > directionX)
-                        {
-                            directionX = +directionX;
-                            directionY = -directionY;
-                        }
-                        else
-                        {
-                            directionX = -directionX;
-                            directionY = +directionY;
-                        }
+        //override, dass man nicht über die elemente fährt
 
-                        break;
-                    case Keys.H:
-                        if (directionX > directionY)
-                        {
-                            directionX = -directionX;
-                            directionY = -directionY;
-                        }
-                        else
-                        {
-                            directionX = +directionX;
-                            directionY = +directionY;
-                        }
-
-                        break;
-                }
-            }
-        }
-
-        /*override, das erste if aktiviert die Ballsteuerung mit Pfeiltasten bei der Ballsteuerung,
-         das zweite if aktiviert die Ballsteuerung mit Pfeiltasten bei der Schlägersteuerung und das else, dass man mit den 
-         Pfeiltasten nicht über die Elemente bewegt
-         */
         protected override bool ProcessDialogKey(Keys keyData)
         {
-            if (rdbSchläger.Checked)
-            {
-                switch (keyData)
-                {
-                    case Keys.Up:
-                        picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y - 25);
-                        return true;
-                    case Keys.Down:
-                        picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y + 25);
-                        return true;
-                    case Keys.Left:
-                        picBall.Location = new Point(picBall.Location.X - 25, picBall.Location.Y + 0);
-                        return true;
-                    case Keys.Right:
-                        picBall.Location = new Point(picBall.Location.X + 25, picBall.Location.Y + 0);
-                        return true;
-                    default:
-                        return base.ProcessDialogKey(keyData);
-                }
-            }
-
-            if (rdbBall.Checked)
-            {
-                switch (keyData)
-                {
-                    case Keys.Up:
-                        picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y - 25);
-                        return true;
-                    case Keys.Down:
-                        picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y + 25);
-                        return true;
-
-                    case Keys.Left:
-                        picBall.Location = new Point(picBall.Location.X - 25, picBall.Location.Y + 0);
-                        return true;
-                    case Keys.Right:
-                        picBall.Location = new Point(picBall.Location.X + 25, picBall.Location.Y + 0);
-                        return true;
-                    default:
-                        return base.ProcessDialogKey(keyData);
-                }
-            }
-
             switch (keyData)
             {
                 case Keys.Up:
@@ -238,64 +214,20 @@ namespace Ping_Pong
             return base.ProcessDialogKey(keyData);
         }
 
-        /*Wenn Radio Button markiert ist bei Schlägersteuerung,
-        dann kann mit P und F das Spiel pausiert und wieder fortgesetzt werden */
-        private void rdbSchläger_KeyDown(object sender, KeyEventArgs e)
+        //Spiel pausieren und fortsetzen
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             switch (e.KeyData)
             {
                 case Keys.P:
                     tmrSpiel.Stop();
-                    vsbScrollbarrechts.Enabled = false;
                     break;
                 case Keys.F:
                     tmrSpiel.Start();
-                    vsbScrollbarrechts.Enabled = true;
                     break;
             }
         }
 
-        /*Wenn Radio Button markiert ist bei Schlägersteuerung,
-        dann sind die RichtungsButtons unsichtbar und die Scrollbar sichtbar */
-        private void rdbSchläger_CheckedChanged(object sender, EventArgs e)
-        {
-            vsbScrollbarrechts.Enabled = true;
-            btnUp.Visible = false;
-            btnDown.Visible = false;
-            btnRight.Visible = false;
-            btnLeft.Visible = false;
-        }
-
-        //Wenn Radio Button markiert ist bei Ballsteuerung, dann sind die RichtungsButtons sichtbar
-        private void rdbBall_CheckedChanged(object sender, EventArgs e)
-        {
-            vsbScrollbarrechts.Enabled = false;
-            btnUp.Visible = true;
-            btnDown.Visible = true;
-            btnRight.Visible = true;
-            btnLeft.Visible = true;
-        }
-
-        //Richtungsänderung wenn einer der Buttons geklickt wird, Up, Down, Right, Left
-
-        private void btnUp_Click(object sender, EventArgs e)
-        {
-            picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y - 25);
-        }
-
-        private void btnLeft_Click(object sender, EventArgs e)
-        {
-            picBall.Location = new Point(picBall.Location.X - 25, picBall.Location.Y + 0);
-        }
-
-        private void btnRight_Click(object sender, EventArgs e)
-        {
-            picBall.Location = new Point(picBall.Location.X + 25, picBall.Location.Y + 0);
-        }
-
-        private void btnDown_Click(object sender, EventArgs e)
-        {
-            picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y + 25);
-        }
+        
     }
 }

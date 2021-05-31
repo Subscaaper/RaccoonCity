@@ -8,3 +8,14 @@ G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.pdb
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.Form1.resources
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.Informationen.resources
+G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\AB_03 Events\obj\Debug\AB_03 Events.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\RiderProjects\Modul404\AB_03 Events\bin\Debug\AB_03_Events.exe.config
+C:\Users\Kevin\RiderProjects\Modul404\AB_03 Events\bin\Debug\AB_03_Events.exe
+C:\Users\Kevin\RiderProjects\Modul404\AB_03 Events\bin\Debug\AB_03_Events.pdb
+C:\Users\Kevin\RiderProjects\Modul404\AB_03 Events\obj\Debug\AB_03 Events.csprojAssemblyReference.cache
+C:\Users\Kevin\RiderProjects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.Form1.resources
+C:\Users\Kevin\RiderProjects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.Informationen.resources
+C:\Users\Kevin\RiderProjects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.Properties.Resources.resources
+C:\Users\Kevin\RiderProjects\Modul404\AB_03 Events\obj\Debug\AB_03 Events.csproj.GenerateResource.cache
+C:\Users\Kevin\RiderProjects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.exe
+C:\Users\Kevin\RiderProjects\Modul404\AB_03 Events\obj\Debug\AB_03_Events.pdb

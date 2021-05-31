@@ -9,6 +9,7 @@ namespace Ping_Pong
     {
         private static string filename = "Rangliste.txt";
         private static string path = Application.StartupPath + filename;
+
         public Gameover()
         {
             InitializeComponent();
@@ -19,21 +20,26 @@ namespace Ping_Pong
         {
             Hide();
         }
+
         //Funktion um sich in die Rangliste eintragen zu können
         private void btnEintragen_Click(object sender, EventArgs e)
         {
             string name = txtName.Text;
-            
+
             //Eintrag in die Rangliste
             string text = String.Format("{0}, {1}, {2},", lblPunkte.Text, name, DateTime.Today.ToString("dd-MM-yy")) +
-                Environment.NewLine;
+                          Environment.NewLine;
             File.AppendAllText(path, text);
             lblErgebnisse.Text = File.ReadAllText(Application.StartupPath + filename);
-
         }
-        
+
         //Punkte sind als int definiert, werden zum darstellen in String konvertiert.
-        public void SetPoints(int points)
+        public void SetPointsPlayer(int points)
+        {
+            lblPunkte.Text = Convert.ToString(points);
+        }
+
+        public void SetPointsCPU(int points)
         {
             lblPunkte.Text = Convert.ToString(points);
         }
@@ -46,7 +52,6 @@ namespace Ping_Pong
             {
                 lblErgebnisse.Text = File.ReadAllText(Application.StartupPath + "\\Rangliste.txt");
             }
-
         }
     }
 }

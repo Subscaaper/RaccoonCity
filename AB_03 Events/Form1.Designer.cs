@@ -35,7 +35,7 @@
             // 
             // txtausgabe
             // 
-            this.txtausgabe.BackColor = System.Drawing.Color.Gray;
+            this.txtausgabe.BackColor = System.Drawing.Color.White;
             this.txtausgabe.Enabled = false;
             this.txtausgabe.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));

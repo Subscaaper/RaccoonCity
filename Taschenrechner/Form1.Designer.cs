@@ -120,10 +120,10 @@
             // 
             // btnMaximum
             // 
-            this.btnMaximum.Location = new System.Drawing.Point(203, 241);
+            this.btnMaximum.Location = new System.Drawing.Point(209, 241);
             this.btnMaximum.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.btnMaximum.Name = "btnMaximum";
-            this.btnMaximum.Size = new System.Drawing.Size(127, 54);
+            this.btnMaximum.Size = new System.Drawing.Size(132, 54);
             this.btnMaximum.TabIndex = 9;
             this.btnMaximum.Text = "Maximum";
             this.btnMaximum.UseVisualStyleBackColor = true;
