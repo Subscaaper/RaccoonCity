@@ -39,7 +39,7 @@ namespace Ping_Pong
             lblPunkte.Text = Convert.ToString(points);
         }
 
-        public void SetPointsCPU(int points)
+        public void SetPointsCpu(int points)
         {
             lblPunkte.Text = Convert.ToString(points);
         }
@@ -50,7 +50,8 @@ namespace Ping_Pong
             //Wenn ein File schon existiert auf folgendem Pfad, dann soll er es öffnen im lblErgebnisse
             if (File.Exists(Application.StartupPath + "\\Rangliste.txt"))
             {
-                lblErgebnisse.Text = File.ReadAllText(Application.StartupPath + "\\Rangliste.txt");
+                lblErgebnisse.Text = "";
+                /*lblErgebnisse.Text = File.ReadAllText(Application.StartupPath + "\\Rangliste.txt");*/
             }
         }
     }

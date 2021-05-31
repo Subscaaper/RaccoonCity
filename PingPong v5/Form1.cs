@@ -33,6 +33,8 @@ namespace Ping_Pong
             pointsPlayer = 0;
             pointsCpu = 0;
             btnSetBall.Visible = true;
+            
+            picCPU.Location = new Point(1, (pnlSpiel.Height / 2 - picCPU.Height / 2));
         }
 
         //Continues the game by clicking on the button, after a point is made, ball spawns in the middle
@@ -42,6 +44,8 @@ namespace Ping_Pong
             SetDirection();
             picBall.Location = new Point(pnlSpiel.Width / 2,
                 pnlSpiel.Height / 2);
+            
+            picCPU.Location = new Point(1, (pnlSpiel.Height / 2 - picCPU.Height / 2));
         }
 
         public void SetDirection()
@@ -63,6 +67,9 @@ namespace Ping_Pong
         //Im Timer läuft das Spiel ab
         public void tmrSpiel_Tick(object sender, EventArgs e)
         {
+            SetCpuDirection(3);
+            picCPU.Location = new Point(1, picCPU.Location.Y + CPUdirectionY);
+            
             //Bewegung des Balles
             picBall.Location = new Point(picBall.Location.X + directionX,
                 picBall.Location.Y + directionY);
@@ -126,22 +133,25 @@ namespace Ping_Pong
             //If CPU is at the top
             if (picCPU.Location.Y <= 0)
             {
-                if (picBall.Location.Y >= 0 && picBall.Location.Y <= (pnlSpiel.Height - pnlSpiel.Height) + picBall.Height)
+                SetCpuDirection(3);
+                picCPU.Location = new Point(1, picCPU.Location.Y + directionY);
+                /*if (picBall.Location.Y >= 0 && picBall.Location.Y <= (pnlSpiel.Height - pnlSpiel.Height) + picBall.Height)
                 {
                   SetCpuDirection(0);  
-                  picCPU.Location = picCPU.Location;
+                  picCPU.Location = new Point(1, picCPU.Location.Y + CPUdirectionY);
                 }
                 else
                 {
-                    SetCpuDirection(3);
-                                    picCPU.Location = new Point(1, picCPU.Location.Y + CPUdirectionY);
-                }
+                    SetCpuDirection(3); 
+                    picCPU.Location = new Point(1, picCPU.Location.Y + CPUdirectionY);
+                }*/
                 
             }
 
             //If CPU is at the bottom
             if (picCPU.Location.Y + picCPU.Height >= pnlSpiel.Height)
             {
+                SetCpuDirection(3);
                 picCPU.Location = new Point(1, picCPU.Location.Y + CPUdirectionY);
             }
 
@@ -151,7 +161,7 @@ namespace Ping_Pong
                 tmrSpiel.Stop();
                 gameover.Show();
                 gameover.SetPointsPlayer(pointsPlayer);
-                gameover.SetPointsCPU(pointsCpu);
+                gameover.SetPointsCpu(pointsCpu);
             }
 
             txtPlayerPoints.Text = Convert.ToString(pointsPlayer);
@@ -226,7 +236,5 @@ namespace Ping_Pong
                     break;
             }
         }
-
-        
     }
 }
