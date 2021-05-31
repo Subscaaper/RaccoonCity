@@ -196,7 +196,6 @@ namespace Ping_Pong
         }
 
         //override, dass man nicht über die elemente fährt
-
         protected override bool ProcessDialogKey(Keys keyData)
         {
             switch (keyData)
