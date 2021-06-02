@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d55cd4fc-af7e-44fb-81c7-55895a4ef396" name="Default Changelist" comment="added changes to Ping Pong&#10;added CPU">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Modul404/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/bin/Debug/Ping_Pong.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/bin/DebugRangliste.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/bin/DebugRangliste.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong v5 .csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping Pong v5 .csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong v5/obj/Debug/Ping_Pong.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="d55cd4fc-af7e-44fb-81c7-55895a4ef396" name="Default Changelist" comment="added changes to Ping Pong&#10;added CPU" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -227,7 +217,7 @@
       <workItem from="1622412468361" duration="9891000" />
       <workItem from="1622469999316" duration="1856000" />
       <workItem from="1622489509404" duration="4767000" />
-      <workItem from="1622622361524" duration="5011000" />
+      <workItem from="1622622361524" duration="5260000" />
     </task>
     <task id="LOCAL-00001" summary="Second Try">
       <created>1586198217278</created>
@@ -467,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622471879531</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added changes to Ping Pong&#10;added CPU">
+      <created>1622628276276</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1622628276277</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,6 +611,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="670" y="200" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1622416027081" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1622628280737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1622628280737" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1622414609904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
