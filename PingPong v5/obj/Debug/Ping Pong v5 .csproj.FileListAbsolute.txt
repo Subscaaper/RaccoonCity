@@ -9,3 +9,23 @@ G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v5\obj\D
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v5\obj\Debug\Ping_Pong.exe
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v5\obj\Debug\Ping_Pong.pdb
 G:\BIS19\C#_Prozedurales Programmieren\Rider Projects\Modul404\PingPong v5\obj\Debug\Ping Pong v5 .csproj.CoreCompileInputs.cache
+C:\Users\Kevin\RiderProjects\Modul404\PingPong v5\bin\Debug\Ping_Pong.exe.config
+C:\Users\Kevin\RiderProjects\Modul404\PingPong v5\bin\Debug\Ping_Pong.exe
+C:\Users\Kevin\RiderProjects\Modul404\PingPong v5\bin\Debug\Ping_Pong.pdb
+C:\Users\Kevin\RiderProjects\Modul404\PingPong v5\obj\Debug\Ping Pong v5 .csprojAssemblyReference.cache
+C:\Users\Kevin\RiderProjects\Modul404\PingPong v5\obj\Debug\Ping_Pong.Form1.resources
+C:\Users\Kevin\RiderProjects\Modul404\PingPong v5\obj\Debug\Ping_Pong.Gameover.resources
+C:\Users\Kevin\RiderProjects\Modul404\PingPong v5\obj\Debug\Ping_Pong.Properties.Resources.resources
+C:\Users\Kevin\RiderProjects\Modul404\PingPong v5\obj\Debug\Ping Pong v5 .csproj.GenerateResource.cache
+C:\Users\Kevin\RiderProjects\Modul404\PingPong v5\obj\Debug\Ping_Pong.exe
+C:\Users\Kevin\RiderProjects\Modul404\PingPong v5\obj\Debug\Ping_Pong.pdb
+C:\Users\Kevin\RiderProjects\Csharp_1\PingPong v5\bin\Debug\Ping_Pong.exe.config
+C:\Users\Kevin\RiderProjects\Csharp_1\PingPong v5\bin\Debug\Ping_Pong.exe
+C:\Users\Kevin\RiderProjects\Csharp_1\PingPong v5\bin\Debug\Ping_Pong.pdb
+C:\Users\Kevin\RiderProjects\Csharp_1\PingPong v5\obj\Debug\Ping Pong v5 .csprojAssemblyReference.cache
+C:\Users\Kevin\RiderProjects\Csharp_1\PingPong v5\obj\Debug\Ping_Pong.Form1.resources
+C:\Users\Kevin\RiderProjects\Csharp_1\PingPong v5\obj\Debug\Ping_Pong.Gameover.resources
+C:\Users\Kevin\RiderProjects\Csharp_1\PingPong v5\obj\Debug\Ping_Pong.Properties.Resources.resources
+C:\Users\Kevin\RiderProjects\Csharp_1\PingPong v5\obj\Debug\Ping Pong v5 .csproj.GenerateResource.cache
+C:\Users\Kevin\RiderProjects\Csharp_1\PingPong v5\obj\Debug\Ping_Pong.exe
+C:\Users\Kevin\RiderProjects\Csharp_1\PingPong v5\obj\Debug\Ping_Pong.pdb
