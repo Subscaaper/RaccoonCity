@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schachbrett", "Schachbrett\Schachbrett.csproj", "{59D7CDA9-63BB-4D2A-BFB9-CCCA2F206F3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ping Pong v5 ", "PingPong v5\Ping Pong v5 .csproj", "{F5CBDF01-D475-4FFC-A078-9BD92E51CE02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ping Pong with CPU", "PingPong v5\Ping Pong with CPU.csproj", "{F5CBDF01-D475-4FFC-A078-9BD92E51CE02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
